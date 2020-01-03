@@ -1,0 +1,47 @@
+\ProvidesPackage{preamble}
+
+\usepackage[left=1 in,right=1 in, bottom=1 in, top=1 in]{geometry}
+
+%Packages Used
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage[shortlabels]{enumitem}
+\usepackage{tikz-cd}
+\usetikzlibrary{arrows}
+
+%Parameters to be Set
+\setlength{\parindent}{0 pt}
+\setlength{\parskip}{1 ex}
+
+%Custom Commands Used
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\G}{\ensuremath{\mathcal{G}}}
+\newcommand{\degree}{\ensuremath{\mathrm{deg}}}
+\newcommand{\F}[1]{\ensuremath{\mathbb{F}_{#1}}}
+\newcommand{\U}{\ensuremath{\mathcal{U}}}
+\newcommand{\D}{\ensuremath{\mathcal{D}}}
+\newcommand{\st}{\ensuremath{\mathrm{st}}}
+\newcommand{\proj}{\ensuremath{\mathrm{Proj}}}
+
+%Theorem Style Environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{cor}{Corollary}
+
+
+%Header and Footer Options
+\pagestyle{fancy}
+\lhead{Schrecengost}
+\rhead{}
+\cfoot{\thepage}
+\date{}
+
+

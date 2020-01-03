@@ -1,0 +1,8 @@
+\standalonepreambles
+\subpreamble{wtranslationpost.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\subpreamble{wtranslationpre.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\endstandalonepreambles

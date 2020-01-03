@@ -1,0 +1,17 @@
+\documentclass[crop=true]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\begin{document}
+\resizebox{6 in}{!}{\subimport{./}{wtranslationpost.tex}}
+\begin{tikzpicture}[x=1 in,y=1 in]
+\fill[white] (-0.5,-3) rectangle (0.5,3);
+\draw[->,line width=2 pt](-0.5,2) to[bend left] node[above]{\LARGE$w^{-1}$} (0.5,2);
+\draw[->,line width=2 pt](0.5,-2) to[bend left] node[below]{\LARGE$w$} (-0.5,-2);
+\end{tikzpicture}
+\resizebox{6 in}{!}{\subimport{./}{wtranslationpre.tex}}
+
+\end{document}

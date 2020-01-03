@@ -1,0 +1,8 @@
+\standalonepreambles
+\subpreamble{diagrams/defineD.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\subpreamble{diagrams/impossibletriangle.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\endstandalonepreambles

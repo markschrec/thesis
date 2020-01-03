@@ -1,0 +1,17 @@
+\standalonepreambles
+\subpreamble{diagrams/defineD.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\subpreamble{diagrams/impossibletriangle.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\subpreamble{diagrams/mappicture.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {amssymb}\usepackage {tikz}\usetikzlibrary {arrows}
+\endsubpreamble
+\subpreamble{diagrams/./wtranslationpost.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\subpreamble{diagrams/./wtranslationpre.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
+\endsubpreamble
+\endstandalonepreambles

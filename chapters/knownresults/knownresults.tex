@@ -1,0 +1,30 @@
+\documentclass[class=book, crop=false,12 pt]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage{/home/mark/Documents/gradschool/research/thesis/preamble}
+
+\begin{document}
+\chapter{Known Results on Finite Generation}
+
+We know that if $\U$ is the unipotent subgroup of any excpetional rank 2 Chevalley group then $\langle \U_\alpha,\U_\beta\rangle\subsetneq \U$ where $\alpha,\beta$ are the simple roots of the root system. However, we do have the following results about generation. 
+
+\begin{lemma} Let $\alpha,\beta,\beta+\alpha,\beta+2\alpha$ be the positive roots of a root system of type $C_2$ and $\U$ the unipotent subgroup of $C_2(\F{2}).$ Then $\U=\langle \U_\alpha,\U_\beta,\U_{\beta+\alpha}\rangle=\langle \U_\alpha,\U_\beta,\U_{\beta+2\alpha}\rangle.$
+	\label{c2f2gen}
+\end{lemma}
+
+\begin{lemma}
+	\label{g2f3gen}
+Let $\alpha,\beta,\beta+\alpha,\beta+2\alpha,\beta+3\alpha,2\beta+3\alpha$ be the positive roots of a root system of type $G_2$ and $\U$ the unipotent subgroup of $G_2(\F{3}).$ Then $\U=\langle \U_\alpha,\U_\beta,\U_{\beta+\alpha}\rangle=\langle \U_\alpha,\U_\beta,\U_{\beta+3\alpha}\rangle.$
+\end{lemma}
+
+\begin{lemma}
+	\label{g2f2gen}
+	Let $\alpha,\beta,\beta+\alpha,\beta+2\alpha,\beta+3\alpha,2\beta+3\alpha$ be the positive roots of a root system of type $G_2$ and $\U$ the unipotent subgroup of $G_2(\F{2}).$ Then $\U=\langle \U_\alpha,\U_\beta,\U_{\beta+\alpha}\rangle$ but $\langle \U_\alpha,\U_\beta,\U_{\beta+3\alpha}\rangle\subsetneq \U.$
+\end{lemma}
+
+\begin{lemma}
+	\label{g2f2unique}
+	If $\G=\G_2(\F{2})$ then there is a unique surjective homomorphism $\phi:\U\to K$ where $K$ is the cyclic group of order 2, such that $\phi(\U_\alpha)=\phi(\U_\beta)=1.$
+\end{lemma}
+
+\end{document}
