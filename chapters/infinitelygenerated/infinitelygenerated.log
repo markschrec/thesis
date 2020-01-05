@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  2 JAN 2020 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  4 JAN 2020 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,93 +569,99 @@ LaTeX Warning: Reference `existence' on page 1 undefined on input line 40.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `existence' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `existence' on page 2 undefined on input line 57.
 
 
-LaTeX Warning: Reference `containD' on page 2 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
+LaTeX Warning: Reference `existience' on page 2 undefined on input line 59.
 
 [2]
 
-LaTeX Warning: Reference `containD' on page 3 undefined on input line 83.
+LaTeX Warning: Reference `existence' on page 3 undefined on input line 74.
 
 
-LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 88.
+LaTeX Warning: Reference `containD' on page 3 undefined on input line 76.
 
 
-LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 97.
-
-
-LaTeX Warning: Reference `g2f2unique' on page 3 undefined on input line 97.
-
-
-LaTeX Warning: Reference `Dexists' on page 3 undefined on input line 100.
-
-
-LaTeX Warning: Reference `Dexists' on page 3 undefined on input line 107.
-
-[3]
-
-LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 113.
-
-
-LaTeX Warning: Reference `simpleeverywhereelse' on page 4 undefined on input line 117.
-
-
-LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 117.
-
-
-LaTeX Warning: Reference `infmany' on page 4 undefined on input line 128.
-
-
-LaTeX Warning: Reference `infmany' on page 4 undefined on input line 144.
-
-[4]
-
-LaTeX Warning: Reference `notfinitelygenerated' on page 5 undefined on input line 175.
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-<diagrams/deg6433f2.pdf, id=36, 469.755pt x 234.8775pt>
+
+LaTeX Warning: Reference `containD' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 95.
+
+
+LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `uniqephi' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `Dexists' on page 3 undefined on input line 109.
+
+[3]
+
+LaTeX Warning: Reference `existence' on page 4 undefined on input line 112.
+
+
+LaTeX Warning: Reference `Dexists' on page 4 undefined on input line 119.
+
+
+LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 125.
+
+
+LaTeX Warning: Reference `simpleeverywhereelse' on page 4 undefined on input line 129.
+
+
+LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 129.
+
+
+LaTeX Warning: Reference `infmany' on page 4 undefined on input line 140.
+
+[4]
+
+LaTeX Warning: Reference `infmany' on page 5 undefined on input line 156.
+
+
+LaTeX Warning: Reference `notfinitelygenerated' on page 5 undefined on input line 187.
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+<diagrams/deg6433f2.pdf, id=40, 469.755pt x 234.8775pt>
 File: diagrams/deg6433f2.pdf Graphic file (type pdf)
 <use diagrams/deg6433f2.pdf>
-Package pdftex.def Info: diagrams/deg6433f2.pdf  used on input line 231.
+Package pdftex.def Info: diagrams/deg6433f2.pdf  used on input line 244.
 (pdftex.def)             Requested size: 469.75386pt x 234.87692pt.
-[6]
-<diagrams/deg8433f2.pdf, id=41, 469.755pt x 234.8775pt>
+[7 <./diagrams/deg6433f2.pdf>]
+<diagrams/deg8433f2.pdf, id=56, 469.755pt x 234.8775pt>
 File: diagrams/deg8433f2.pdf Graphic file (type pdf)
 <use diagrams/deg8433f2.pdf>
-Package pdftex.def Info: diagrams/deg8433f2.pdf  used on input line 245.
+Package pdftex.def Info: diagrams/deg8433f2.pdf  used on input line 258.
 (pdftex.def)             Requested size: 469.75386pt x 234.87692pt.
+ [8 <./diagrams/deg8433f2.pdf>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `c2f2fg' on page 9 undefined on input line 269.
 
- [7 <./diagrams/deg6433f2.pdf>]
-
-LaTeX Warning: Reference `c2f2fg' on page 8 undefined on input line 256.
-
-[8 <./diagrams/deg8433f2.pdf>] [9] (./infinitelygenerated.aux)
+[9] (./infinitelygenerated.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16055 strings out of 494880
- 325147 string characters out of 6179600
- 363492 words of memory out of 5000000
- 19006 multiletter control sequences out of 15000+600000
- 19698 words of font info for 80 fonts, out of 8000000 for 9000
+ 16059 strings out of 494880
+ 325190 string characters out of 6179600
+ 364492 words of memory out of 5000000
+ 19009 multiletter control sequences out of 15000+600000
+ 20396 words of font info for 82 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 67i,12n,90p,1276b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,12n,90p,1276b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on infinitelygenerated.pdf (9 pages, 700593 bytes).
+Output written on infinitelygenerated.pdf (9 pages, 704850 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

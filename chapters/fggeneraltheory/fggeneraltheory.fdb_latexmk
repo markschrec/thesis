@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1578073893 "fggeneraltheory.tex" "fggeneraltheory.pdf" "fggeneraltheory" 1578073894
-  "/dev/null" 1517155124 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1578183742 "fggeneraltheory.tex" "fggeneraltheory.pdf" "fggeneraltheory" 1578183742
+  "/dev/null" 1517155123 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mark/Documents/gradschool/research/thesis/preamble.sty" 1577649317 1100 a3081adfc75b82dd0cf7f7b32eefbc12 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -23,6 +23,8 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1480098701 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm" 1480098701 1492 86331993fe614793f5e7e755835c31c5 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti8.tfm" 1480098701 1504 1747189e0441d1c18f3ea56fafc1c480 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1480098717 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1480098717 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -31,7 +33,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1480098733 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1480098733 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1480098733 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -176,11 +177,11 @@
   "diagrams/defineD.tex" 1576908462 8683 67b204481befb1fd30614cc58cd358a4 ""
   "diagrams/impossibletriangle.tex" 1576904202 11272 139c4c9d049a4a05116a34990402dcae ""
   "diagrams/mappicture.tex" 1576998262 575 886f13b69ac104dc680ec2e123a89a4e ""
-  "fggeneraltheory.aux" 1578073894 1273 651a5a4602a44ce78781db2a1437713e ""
-  "fggeneraltheory.sta" 1578073894 710 71c3c1c51a1a47bb601e7f4e0a667320 ""
-  "fggeneraltheory.tex" 1578073891 23702 247f2733a9ab383003b361f57c9c39ac ""
+  "fggeneraltheory.aux" 1578183742 1248 741401bac0755fcbfc3f46d41fa326d5 ""
+  "fggeneraltheory.sta" 1578183742 710 71c3c1c51a1a47bb601e7f4e0a667320 ""
+  "fggeneraltheory.tex" 1578183741 28580 4ed90387b07dbe4020fe4690c691926b ""
   (generated)
+  "fggeneraltheory.aux"
   "fggeneraltheory.log"
   "fggeneraltheory.sta"
-  "fggeneraltheory.aux"
   "fggeneraltheory.pdf"

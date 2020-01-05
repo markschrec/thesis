@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1577984335 "infinitelygenerated.tex" "infinitelygenerated.pdf" "infinitelygenerated" 1578073486
-  "/dev/null" 1517155124 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1578187658 "infinitelygenerated.tex" "infinitelygenerated.pdf" "infinitelygenerated" 1578187658
+  "/dev/null" 1517155123 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mark/Documents/gradschool/research/thesis/preamble.sty" 1577649317 1100 a3081adfc75b82dd0cf7f7b32eefbc12 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -26,6 +26,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm" 1480098701 1492 86331993fe614793f5e7e755835c31c5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1480098717 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1480098717 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1480098717 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -180,9 +181,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540353152 859997 6b907fd9904e02dae037b93f82759336 ""
   "diagrams/deg6433f2.pdf" 1577808203 259695 69436d3864b05429693d0229ef5dda55 ""
   "diagrams/deg8433f2.pdf" 1577807118 262244 6395e32d409203488a2de63e7070bf75 ""
-  "infinitelygenerated.aux" 1577984336 1270 2d096fa958ab4dcf61a53a824709fd90 ""
-  "infinitelygenerated.sta" 1577984336 45 5977ee01d6365feae7164ffda30d2c8b ""
-  "infinitelygenerated.tex" 1578031697 30141 1ce52d4e97a4b8ec00854e8b1254080b ""
+  "infinitelygenerated.aux" 1578187658 1270 8cb2f446b86590be0f12eadbbabd2534 ""
+  "infinitelygenerated.sta" 1578187658 45 5977ee01d6365feae7164ffda30d2c8b ""
+  "infinitelygenerated.tex" 1578187656 32323 7f682f5359eba9d0156acdeaf8bf0426 ""
   (generated)
   "infinitelygenerated.sta"
   "infinitelygenerated.aux"
