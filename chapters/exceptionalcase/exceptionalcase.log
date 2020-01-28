@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  4 JAN 2020 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  20 JAN 2020 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**fggeneraltheory.tex
-(./fggeneraltheory.tex
+**exceptionalcase.tex
+(./exceptionalcase.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
@@ -31,8 +31,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: standalone.cfg 2015/07/15 v1.2 Default configuration file for 'standalone' class
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count82
 \c@chapter=\count83
@@ -70,7 +70,7 @@ Package: filehook 2011/10/12 v0.5d Hooks for input files
 \c@currfiledepth=\count91
 )
 \sa@out=\write3
- (./fggeneraltheory.sta) (/usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty (/usr/share/texlive/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+ (./exceptionalcase.sta) (/usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty (/usr/share/texlive/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
@@ -124,9 +124,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \gincltex@box=\box28
 ) (/usr/share/texlive/texmf-dist/tex/latex/filemod/filemod-expmin.sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
-)) (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
-Package: import 2009/03/23  v 5.1
-) (/home/mark/Documents/gradschool/research/thesis/preamble.sty
+)) (/home/mark/Documents/gradschool/research/thesis/preamble.sty
 
 LaTeX Warning: You have requested package `/home/mark/Documents/gradschool/research/thesis/preamble',
                but the package provides `preamble'.
@@ -459,8 +457,10 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \c@theorem=\count129
 \c@lemma=\count130
 \c@cor=\count131
-) (./fggeneraltheory.aux)
-\openout1 = `fggeneraltheory.aux'.
+) (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+) (./exceptionalcase.aux)
+\openout1 = `exceptionalcase.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -474,8 +474,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
- (./fggeneraltheory.sta)
-\openout3 = `fggeneraltheory.sta'.
+ (./exceptionalcase.sta)
+\openout3 = `exceptionalcase.sta'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -526,15 +526,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \textheight=650.43001pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-31.8738pt
+* \topmargin=-30.06749pt
 * \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=98.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -557,62 +557,114 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+
+LaTeX Warning: Reference `infmany' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Reference `existence' on page 1 undefined on input line 40.
+
+[1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `knownfgresults' on page 2 undefined on input line 28.
+LaTeX Warning: Reference `existence' on page 2 undefined on input line 57.
 
 
-LaTeX Warning: Reference `phiv' on page 2 undefined on input line 28.
+LaTeX Warning: Reference `existence' on page 2 undefined on input line 59.
+
+[2]
+
+LaTeX Warning: Reference `existence' on page 3 undefined on input line 74.
 
 
-LaTeX Warning: Reference `phiv' on page 2 undefined on input line 42.
+LaTeX Warning: Reference `containD' on page 3 undefined on input line 76.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] (./diagrams/defineD.tex)
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [3]
-
-LaTeX Warning: Reference `336f2containD' on page 4 undefined on input line 96.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-[4] (./diagrams/impossibletriangle.tex) [5]
 
-LaTeX Warning: Reference `phiv' on page 6 undefined on input line 139.
+LaTeX Warning: Reference `containD' on page 3 undefined on input line 90.
 
-[6] (./diagrams/mappicture.tex (./diagrams/./wtranslationpost.tex) (./diagrams/./wtranslationpre.tex)) [7]
-Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [8] [9] [10] (./fggeneraltheory.aux)
+LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 95.
+
+
+LaTeX Warning: Reference `preservesimple' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `uniquephiv' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `Dexists' on page 3 undefined on input line 109.
+
+[3]
+
+LaTeX Warning: Reference `existence' on page 4 undefined on input line 112.
+
+
+LaTeX Warning: Reference `Dexists' on page 4 undefined on input line 119.
+
+
+LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 125.
+
+
+LaTeX Warning: Reference `positiveeverywhereelse' on page 4 undefined on input line 129.
+
+
+LaTeX Warning: Reference `preservesimple' on page 4 undefined on input line 129.
+
+
+LaTeX Warning: Reference `infmany' on page 4 undefined on input line 140.
+
+[4]
+
+LaTeX Warning: Reference `infmany' on page 5 undefined on input line 156.
+
+
+LaTeX Warning: Reference `notfinitelygenerated' on page 5 undefined on input line 187.
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+<diagrams/deg6433f2.pdf, id=40, 469.755pt x 234.8775pt>
+File: diagrams/deg6433f2.pdf Graphic file (type pdf)
+<use diagrams/deg6433f2.pdf>
+Package pdftex.def Info: diagrams/deg6433f2.pdf  used on input line 244.
+(pdftex.def)             Requested size: 469.75386pt x 234.87692pt.
+[7 <./diagrams/deg6433f2.pdf>]
+<diagrams/deg8433f2.pdf, id=56, 469.755pt x 234.8775pt>
+File: diagrams/deg8433f2.pdf Graphic file (type pdf)
+<use diagrams/deg8433f2.pdf>
+Package pdftex.def Info: diagrams/deg8433f2.pdf  used on input line 258.
+(pdftex.def)             Requested size: 469.75386pt x 234.87692pt.
+ [8 <./diagrams/deg8433f2.pdf>]
+
+LaTeX Warning: Reference `c2f2gen' on page 9 undefined on input line 269.
+
+[9] (./exceptionalcase.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16381 strings out of 494880
- 334320 string characters out of 6179600
- 387510 words of memory out of 5000000
- 19320 multiletter control sequences out of 15000+600000
- 16752 words of font info for 66 fonts, out of 8000000 for 9000
+ 16058 strings out of 494880
+ 325131 string characters out of 6179600
+ 364463 words of memory out of 5000000
+ 19008 multiletter control sequences out of 15000+600000
+ 20396 words of font info for 82 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 67i,12n,90p,1243b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on fggeneraltheory.pdf (10 pages, 179941 bytes).
+ 67i,12n,90p,1272b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on exceptionalcase.pdf (9 pages, 705690 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

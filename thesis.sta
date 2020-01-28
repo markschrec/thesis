@@ -2,25 +2,22 @@
 \subpreamble{chapters/knownresults/knownresults.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
-\subpreamble{chapters/fggeneraltheory/fggeneraltheory.tex}
+\subpreamble{chapters/generalcase/generalcase.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
-\subpreamble{chapters/fggeneraltheory/diagrams/defineD.tex}
+\subpreamble{chapters/generalcase/diagrams/defineD.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {tikz}
 \endsubpreamble
-\subpreamble{chapters/fggeneraltheory/diagrams/impossibletriangle.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {tikz}
-\endsubpreamble
-\subpreamble{chapters/fggeneraltheory/diagrams/mappicture.tex}
+\subpreamble{chapters/generalcase/diagrams/mappicture.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {amssymb}\usepackage {tikz}\usetikzlibrary {arrows}
 \endsubpreamble
-\subpreamble{chapters/fggeneraltheory/diagrams/./wtranslationpost.tex}
+\subpreamble{chapters/generalcase/diagrams/./wtranslationpost.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {tikz}
 \endsubpreamble
-\subpreamble{chapters/fggeneraltheory/diagrams/./wtranslationpre.tex}
+\subpreamble{chapters/generalcase/diagrams/./wtranslationpre.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {tikz}
 \endsubpreamble
-\subpreamble{chapters/infinitelygenerated/infinitelygenerated.tex}
+\subpreamble{chapters/exceptionalcase/exceptionalcase.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}\usepackage {import}
 \endsubpreamble
 \endstandalonepreambles

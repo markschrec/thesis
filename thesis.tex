@@ -2,13 +2,14 @@
 \usepackage[top=1 in,left=1 in,right=1 in,bottom=1 in]{geometry}
 \usepackage[subpreambles=true]{standalone}
 \usepackage{import}
-
+\usepackage[left]{showlabels}
+\renewcommand{\showlabelfont}{\scriptsize\slshape\color{red}}
 \begin{document}
 
 \import{chapters/knownresults/}{knownresults}
 
-\import{chapters/fggeneraltheory/}{fggeneraltheory}
+\import{chapters/generalcase/}{generalcase}
 
-\import{chapters/infinitelygenerated/}{infinitelygenerated}
+\import{chapters/exceptionalcase/}{exceptionalcase}
 
 \end{document}
