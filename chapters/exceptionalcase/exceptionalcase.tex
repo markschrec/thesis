@@ -148,51 +148,50 @@ Now we can try to apply Lemma \ref{336f2existence} to show $\tilde{\phi_{wx}}$ e
 
 \textcolor{red}{this proof may need some work based on the changes in Chapter \ref{ch:known}}
 \end{proof}
-\Huge start here \normalsize\\
 
-As in the previous chapter, we now have a potentially large class of vertices for which $\tilde{\phi}_v$ exists, but we still must show there are infinitely many, and that they do not lie on finitely many walls. In fact, we can even use the same vertices as in the previous chapter. Let $w_k=(sut)^k$ for all $k\ge 0$ and let $v_k=w_kx.$ Recall in our current setup that $m(t,u)=6$ and $m(s,u)=m(s,t)=3.$ 
+As in the previous chapter, we now have a potentially large class of vertices for which $\tilde{\phi}_v$ exists, but we still must show there are infinitely many, and that they do not lie on finitely many walls. In fact, we can even use the same vertices as in the previous chapter. Let $w_k=(tus)^k$ for all $k\ge 0$ and let $v_k=w_kx.$ Recall in our current setup that $m(t,u)=6$ and $m(s,u)=m(s,t)=3.$ 
 
 \begin{lemma}
 	\label{336f2infmany}
-	Let $w_k=(sut)^k$ for all $k\ge 0$ and let $x$ be the vertex of $C$ of type $s.$ Then the vertices $w_kx$ are all distinct, and they all lie in $\D'=\alpha_1\cap \alpha_6\cap\beta$ as defined previously.
+	Let $w_k=(tus)^k$ for all $k\ge 0$ and let $x$ be the vertex of $C$ of type $s.$ Then the vertices $(w_k)^{-1}x$ are all distinct, and they all lie in $\D'=\alpha_1\cap \alpha_6\cap\beta$ as defined previously.
 \end{lemma}
 \begin{proof}
-	Many of the proofs will be identical to those in the proof of Lemma \ref{infmany} and so work will not be repeated when unnecessary. We can check that $\ell(w_k)=3k$ and $\ell(tw_k)=3k+1$ by identical arguments as before. We can also check that
+	Many of the proofs will be identical to those in the proof of Lemma \ref{infmany} and so work will not be repeated when unnecessary. Also note that $w_k^{-1}=(sut)^k$ for all $k.$ We can check that $\ell((w_k)^{-1})=3k$ and $\ell(t(w_k)^{-1})=3k+1$ by identical arguments as before. We can also check that
 	\begin{align*}
-		uw_k&=u(sutsut\cdots)\\
+		u(w_k)^{-1}&=u(sutsut\cdots)\\
 		    &=(usu)(tsutsu\cdots)\\
 		    &=(sus)(tsutsu\cdots)\\
 		    &=(su)(sts)(utsuts\cdots)\\
 		    &=(su)(tst)(utsuts\cdots)\\
 		    &=(su)(ts)(tut)(sutsut\cdots)\\
 	\end{align*}
-We have exhausted all possible Coxeter relations in $uw_k$ and none of them led to a reduction in length so we can conclude that $\ell(uw_k)=3k+1$ also so that $w_k\in \alpha_1\cap \alpha_6.$
+	We have exhausted all possible Coxeter relations in $u(w_k)^{-1}$ and none of them led to a reduction in length so we can conclude that $\ell(u(w_k)^{-1})=3k+1$ also so that $(w_k)^{-1}\in \alpha_1\cap \alpha_6.$
 
-Now we do the same analysis for $stw_k$ to see
+	Now we do the same analysis for $st(w_k)^{-1}$ to see
 \begin{align*}
-	stw_k&=st(sutsut\cdots)=(sts)(utsuts\cdots)\\
+	st(w_k)^{-1}&=st(sutsut\cdots)=(sts)(utsuts\cdots)\\
 	     &=(tst)(utsuts\cdots)=(ts)(tut)(sutsut)\\
 \end{align*}
-and since no reductions can be performed we also get $\ell(stw_k)=3k+2$ so that $w_k\in \beta$ as well. Thus each $v_k$ lies in $\D'$ as desired. Each $v_k$ is unique by an identical argument as in Lemma \ref{infmany}.
+and since no reductions can be performed we also get $\ell(st(w_k)^{-1})=3k+2$ so that $(w_k)^{-1}\in \beta$ as well. Thus each $(w_k)^{-1}x$ lies in $\D'$ as desired. We also know that $(w_m)^{-1}x\neq (w_n)^{-1}x$ if $m>n$ by the same argument as in Lemma \ref{infmany}.
 \end{proof}
 
-The last major step is to show that the $w_k^{-1}x$ cannot somehow lie on only finitely many walls. The analysis here will be slightly more complicated, but ultimately similar to that done in the previous chapter.
+The last major step is to show that the $w_kx$ cannot somehow lie on only finitely many walls. The analysis here will be slightly more complicated, but ultimately similar to that done in the previous chapter.
 
 \begin{lemma}
 	\label{336f2finitewalls}
-	Let $x$ be the vertex of $C$ of type $s$ and let $w_k=(sut)^k$ for all $k\ge 0.$ Any wall of $\Sigma$ can contain only finitely many $w_k^{-1}x.$
+	Let $x$ be the vertex of $C$ of type $s$ and let $w_k=(tus)^k$ for all $k\ge 0.$ Any wall of $\Sigma$ can contain only finitely many $w_kx.$
 \end{lemma}
 \begin{proof}
-	By arguments identical to those before, $w_m^{-1}x$ and $w_{n}^{-1}x$ will lie on the same wall if and only if $x$ and $v_k$ lie on the same wall for some $k\ge 0,$ and this will only happen if and only if either $w_k^{-1}uw_k$ or $w_k^{-1}tw_k$ lies in $\langle u,t\rangle.$ We will again apply the Coxter relations to show this is impossible for infinitely many $k.$ First we check
+	By arguments identical to those in Lemma \ref{samewall}, $w_mx$ and $w_{n}x$ will lie on the same wall if and only if $x$ and $w_{n-m}x$ lie on the same wall. If we assume $m>n$ then it will suffice to show that a wally containing $x$ can contain $(w_k)^{-1}x$ for only finitely many $k>0.$ Using the argument of Lemma \ref{samewall} again we know that $x$ and $(w_k)^{-1}x$ will lie on the same way if and only if $w_ktw_k^{-1}$ or $w_kuw_k^{-1}$ lies in $\stab_{W}(x)=\langle u,t\rangle.$ If we check these two conjugates we see 
 \begin{align*}
-	w_k^{-1}tw_k&=(\cdots tustus)t(sutsut\cdots)\\
+	w_ktw_k^{-1}&=(\cdots tustus)t(sutsut\cdots)\\
 		    &=(\cdots tustu)(sts)(utsut\cdots)\\
 		    &=(\cdots tustu)(tst)(utsut\cdots)\\
 		    &=(\cdots tus)(tut)(s)(tut)(sut\cdots)
 \end{align*}
 and the we see also
 \begin{align*}
-	w_k^{-1}uw_k&=(\cdots stustus)u(sutsuts\cdots)\\
+	w_kuw_k^{-1}&=(\cdots stustus)u(sutsuts\cdots)\\
 		    &=(\cdots stust)(ususu)(tsuts\cdots)\\
 		    &=(\cdots stust)(s)(tsuts\cdots)\\
 		    &=(\cdots stu)(ststs)(uts\cdots)\\
@@ -200,17 +199,17 @@ and the we see also
 		    &=(\cdots stustu)(t)(utsuts\cdots)\\
 		    &=(\cdots stus)(tutut)(suts\cdots)\\
 \end{align*}
-Now in the second case we were able to do some reductions so it is possible that $w_{k}^{-1}uw_k\in \langle s,t \rangle$ for small $k,$ but as long as $k$ is large enough, say $k\ge 3$ then this is no longer a possibility as we showed no further reductions are possible. Thus $w_m^{-1}x$ and $w_n^{-1}x$ can only lie on the same wall if $|n-m|\le 3.$
+In the first case, no reduction is possible and thus there will always be an $s$ in any reduced word for $w_ktw_k^{-1}$ and thus $w_ktw_k^{-1}\not\in \langle u,t \rangle.$ In the second case, We are able to do two reductions in length but then are unable to continue. If we check the relations applied, we will se that the relations cannot continue if $k\ge 3.$ For completion we will also note that $w_1uw_1^{-1}=tst\not\in \langle u,t \rangle$ but $w_2uw_2^{-1}=tutut\in \langle u,t\rangle.$ Regardless, we know that $w_mx$ and $w_nx$ cannot lie on the same wall if $|m-n|\ge 3$ so that any wall can contain only finitely many $w_kx$ as edesired.
 
 \end{proof}
 
 Now we are ready to prove the main result of the section, which is nearly identical to the proof of Theorem \ref{notfinitelygenerated}.
 \begin{theorem}
 	\label{336f2notfg}
-	Let $\G$ be the Kac-Moody group over $\F{2}$ with Weyl group defined by the edge labels $3,3,6.$ Then $U$ is not finitely generated.
+	Let $(G,(U_\alpha)_{\alpha\in Phi},T)$ be an RGD system of type $(W,S)$ with assumptions as in $\eqref{assume}.$ Suppose that $a=m(s,t)=b=m(s,t)=3$ and $U_x\cong G_2(2)$ where $x$ is the vertex of $C$ of type $S.$ Then $U_+=\langle U_\alpha|\alpha\in \Phi_+\rangle$ is not finitely generated.
 \end{theorem}
 \begin{proof}
-	Suppose that $U$ is finitely generated. Then there is some finite set of roots $\beta_1,\dots,\beta_m$ such that $U=\langle U_{\beta_i}|1\le i\le m\rangle.$ Now only finitely many of the vertices $w_k^{-1}x$ lie on the same wall and thus we can choose $k$ so that $v=w_k^{-1}x$ does not lie on $\partial \beta_i$ for any $i.$ By Lemma \ref{336f2infmany} we know that $\tilde{\phi_v}$ exists, and by definition it is a surjective map from $U\to C.$ However, we can also see by definition that $\tilde{\phi_v}(U_{\beta_i})=1$ for all $i,$ since none of these walls meet $v.$ But this means $\tilde{\phi_v}$ sends all of the generators of $U$ to the identity and thus it must be the trivial map which is a contradiction. Thus $U$ is not finitely generated as desired.
+	Suppose that $U_+$ is finitely generated. Then there is some finite set of roots $\beta_1,\dots,\beta_m$ such that $U_+=\langle U_{\beta_i}|1\le i\le m\rangle.$ Let $w_k=(tus)^k)$ for all $k\ge 0.$ Now only finitely many of the vertices $w_kx$ lie on the same wall and thus we can choose $k$ so that $v=w_kx$ does not lie on $\partial \beta_i$ for any $i.$ By Lemma \ref{336f2infmany} we know that $\tilde{\phi}_v$ exists, and by definition it is a surjective map from $U_+\to H.$ However, we can also see by definition that $\tilde{\phi}_v(U_{\beta_i})=1$ for all $i,$ since none of these walls meet $v.$ But this means $\tilde{\phi}_v$ sends all of the generators of $U_+$ to the identity and thus it must be the trivial map which is a contradiction. Thus $U_+$ is not finitely generated as desired.
 \end{proof}
 
 \section{Finite Generation in the Exceptional Cases}
@@ -222,33 +221,32 @@ For any positive root $\gamma,$ we say that a chamber $D$ borders $\gamma$ if a 
 \]
 It is worth noting that if $d(\gamma,C)=k$ then there is a chamber $D$ which borders $\gamma$ and $d(\gamma,C)=d(D,C).$ Furthermore, the chamber $D$ must lie in $\gamma$ since, otherwise, the chamber adjacent to $D$ across $\partial\gamma$ would be closer to $C.$
 
-We can now define $U_n=\langle U_{\gamma}|\gamma\in \Phi^+, d(\gamma,C)\le n\rangle$ which is a subgroup of $U$ for all $n.$ We also have a few facts which are immediate from the definition of $U_n.$ We can see that $U_1\subset U_2\subset U_3\subset \cdots$ and $U=\cup_{n}U_n$ as any positive root will be some finite distance from $\C.$ 
+We can now define $U_n=\langle U_{\gamma}|\gamma\in \Phi^+, d(\gamma,C)\le n\rangle$ which is a subgroup of $U_+$ for all $n.$ We also have a few facts which are immediate from the definition of $U_n.$ We can see that $U_1\subset U_2\subset U_3\subset \cdots$ and $U_+=\cup_{n}U_n$ as any positive root will be some finite distance from $C.$ 
 
 Slightly less obvious is the fact that $U_n$ is finitely generated for all $n.$ If $d(\gamma,C)\le n$ then there must be a chamber $D$ which borders $\gamma$ with $d(D,C)\le n.$ There are only finitely many such chambers, and each of these chambers borders at most 3 roots, so $U_n$ is finitely generated.
 
 The idea of the remaining proofs will be to use the following lemma
 \begin{lemma} 
-	For any positive root $\gamma$ we define $d(\gamma,C)=\min\{d(D,C)|D\text{ has a panel on }\partial \gamma\}.$ Let $U_n=\langle U_\gamma |d(\gamma,C)\le n\rangle$ for all $n\ge 0$ where $d(\gamma,C).$ If there is some $N$ such that $U_n\subset U_{n-1}$ for $n>N$ then $U$ is finitely generated.
+	For any positive root $\gamma$ we define $d(\gamma,C)=\min\{d(D,C)|D\text{ has a panel on }\partial \gamma\}.$ Let $U_n=\langle U_\gamma |d(\gamma,C)\le n\rangle$ for all $n\ge 0$ where $d(\gamma,C).$ If there is some $N$ such that $U_n\subset U_{n-1}$ for $n>N$ then $U_+$ is finitely generated.
 	\label{fgcond}
 \end{lemma}
 \begin{proof}
 	If $U_n=U_{n-1}$ for all $n> N$ then inductively we know that $U_n=U_N$ for all $n>N.$ Thus
 	\[
-		U=\cup_{n=N}^{\infty}{U_n}=\cup_{n=N}^\infty U_N=U_N
+		U_+=\cup_{n=N}^{\infty}{U_n}=\cup_{n=N}^\infty U_N=U_N
 	\]
 	which is fintely generated as desired.
 \end{proof}
 
-Since the remaining $W,k$ pairs the only exceptional cases in rank 3, it is clear that we will have to use not only the specific commutator relations of the local root groups, but also the geometry in the Coxeter complex specific to these choices of $W.$
+By the results of Chapter \ref{ch:general} and the previous section, we know that the only cases remaining to consider are when $W$ has a Coxeter diagram defined by edge labels 334, 336, or 338. The 338 case is impossible. And we have already covered the 336 case when $\Sigma$ has a vertex $x$ with $U_x\cong G_2(2).$ Thus we only need to consider when $\Sigma$ has a vertex $x$ with $U_x\cong C_2(2)$ or $G_2(3).$
 
-\subsection{Case: 334 over $\F{2}$}
-Before we start we will note that almost every case must be considered over $\F{2}$ and $\F{3},$ which ususally have to be done separately as there are difference in the commutator relations. However, a lack of a $6$ in the Coxeter diagram of $W$ means that $U$ is finitely generated by the known theory for this choice of $W.$ Therefore, we will only consider this $W$ over $\F{2}.$
+\subsection{Case: $U_x\cong C_2(2)$}
 
-Let $W$ be the Coxeter group defined by a 334 diagram and $k=\F{2}.$ Then we will show $U$ is finitely generated in this case.
+Let $(G,(U_\alpha)_{\alpha\in Phi},T)$ be an RGD system of type $(W,S)$ where $S=\{s,t,u\}$ and $m(s,t)=m(s,u)=3$ and $m(t,u)=6.$ Let $x$ be the vertex of the fundamental chamber $C$ of type $s$ and assume $U_x\cong C_2(2).$ We will show that $U_+$ is finitely generated.
 
 \begin{theorem}
 	\label{334f2fg}
-	If $W=\langle s,t,u|s^2=t^2=u^2=(st)^3=(su)^3=(tu)^4=1\rangle$ and $k=\F{2}.$ Then $U_n\subset U_{n-1}$ for all $n>2.$
+	Let $W=\langle s,t,u|s^2=t^2=u^2=(st)^3=(su)^3=(tu)^4=1\rangle.$ If $x$ is the vertex of $C$ of type $s$ then $U_n\subset U_{n-1}$ for all $n>2.$
 \end{theorem}
 \begin{proof}
 	Let $\gamma$ be any positive root with $d(\gamma,C)=n>2.$ Then choose a chamber $D_1$ which borders $\gamma$ such that $d(D_1,C)=d(\gamma,C).$ Now there is another chamber $D_2$ such that $D_1$ and $D_2$ are adjacent and $d(D_2,C)=d(D_1,C)-1.$ Then $D_1$ and $D_2$ will share exactly one vertex which lies on $\partial \gamma,$ call it $v.$ Recall that $\st(v)$ is the set of chambers of $\Sigma$ for which $v$ is a vertex. Then we have $|\st(v)|=6$ or $8.$
@@ -257,7 +255,8 @@ Let $W$ be the Coxeter group defined by a 334 diagram and $k=\F{2}.$ Then we wil
 
 	By construction, $D_2$ and $D_1$ are not adjacent along $\partial \gamma,$ but a panel of $D_1$ lies on $\partial \gamma,$ and thus $D_1$ and $D_6$ must be adjacent along $\partial\gamma.$ Since $D_6\not\in \gamma,$ this means that $\gamma$ must contain $D_1,D_2,D_3.$ Let $\alpha$ and $\beta$ be the other two positive roots through $v.$ We know that $\partial\gamma$ cannot separate $D_2$ and $D_1$ or $D_2$ and $D_3$ so we can say again without loss of generality that $\partial\alpha$ separates $D_2$ and $D_1$ while $\partial\beta$ separates $D_2$ and $D_3.$ 
 
-	Now $D_3\in \gamma$ but $D_4\not\in \gamma$ which means that $D_3$ has a panel on $\partial\gamma.$ By our choice of $D_1$ we know that $d(D_3,C)\ge d(D_1,C)>d(D_2,C).$ But $D_1$ and $D_3$ are the two chambers adjacent to $D_2$ in $\st(v)$ and thus $D_2$ must be the closest chamber to $C$ in $\st(v).$ But this means $D_2=\proj_v(C)$ and thus the positive roots at $v$ which border $D_2$ must be the simple roots at $v.$ These roots are $\alpha$ and $\beta$ by construction so we know that $\alpha$ and $\beta$ are simple at $v.$  The local isomorphism at $v$ then gives $[U_\alpha,U_\beta]=U_\gamma.$ However, we already showed that $D_2$ borders $\alpha$ and $\beta$ and $d(D_2,C)=d(D_1,C)-1=n-1$ so that $U_\alpha,U_\beta\in U_{n-1}$ and thus $U_\gamma\in U_{n-1}$ as desired.\\
+	Now $D_3\in \gamma$ but $D_4\not\in \gamma$ which means that $D_3$ has a panel on $\partial\gamma.$ By our choice of $D_1$ we know that $d(D_3,C)\ge d(D_1,C)>d(D_2,C).$ But $D_1$ and $D_3$ are the two chambers adjacent to $D_2$ in $\st(v)$ and thus $D_2$ must be the closest chamber to $C$ in $\st(v).$ But this means $D_2=\proj_v(C)$ and thus the positive roots at $v$ which border $D_2$ must be the simple roots at $v.$ These roots are $\alpha$ and $\beta$ by construction so we know that $\alpha$ and $\beta$ are simple at $v.$ Since $|\st(v)|=6$ we know that $U_v$ cannot be an exceptional rank 2 RGD system and thus $U_v$ is generated by the simple root groups through $v.$ Thus $U_x=\langle U_\alpha,U_\beta\rangle.$ But $\alpha,\beta$ border $D_2$ and $d(D_2,C)=d(D_1,C)-1=n-1$ and thus $d(\alpha,C),d(\beta,C)\le n-1$ so that $U_\alpha,U_\beta\subset U_{n-1}.$ This means $U_x\subset U_{n-1}$ as well and thus $U_\gamma \subset U_{n-1}.$
+	
 	\begin{figure}
 		\label{deg6433f2}
 		%\import{diagrams/}{deg6433f2}
@@ -265,6 +264,8 @@ Let $W$ be the Coxeter group defined by a 334 diagram and $k=\F{2}.$ Then we wil
 		\caption{Case: $|\st(v)|=6$}
 	\end{figure}
 
+	
+	\textcolor{red}{\Huge need to tweak this proof and make some edits \normalsize}
 
 	Now suppose $|\st(v)|=8.$ Then we will use the same labeling scheme as before except there will be $8$ chambers, and each positive root will contain exactly 4 consecutive chambers from $\st(v).$ The same logic as before will still tell us that $\gamma$ will contain exactly the chambers $D_1,D_2,D_3,D_4.$ Our first claim is that $D_2=\proj_v(C).$
 
@@ -290,10 +291,11 @@ Now suppose the fixed minimal gallery from before passes through $F_2.$ Then the
 \end{proof}
 
 \begin{cor}
-	Let $\G$ be the Kac-Moody group over $\F{2}$ with rank 3 Weyl group defined by a coxeter diagram with edge labels $3,3,4.$ Then the subgroup $U$ is finitely generated.
+	Suppose $(G,(U_\alpha)_{\alpha\in \Phi},T)$ is an RGD system of type $(W,S)$ with $S=\{s,t,u\}.$ If $m(s,t)=m(s,u)=3$ and $U_x\cong C_2(2)$ for the vertex $x$ of $C$ of type $s$ then $U_+$ is finitely generated.
 \end{cor}
 
 \subsection{Case: 336 over $\F{3}$}
-This section will be very similar to the previous section, with slightly more complicated analysis. Throughout the section $\G$ will be a Kac-Moody group over $\F{3}$ with Weyl group $W=\langle s,t,u|s^2=t^2=u^2=(st)^3=(su)^3=(tu)^6=1\rangle.$ 
+
+Now we consider the last exceptional case. In this section we assume $(G,(U_\alpha)_{\alpha\in Phi},T)$ is an RGD system of type $(W,S)$ with $S=\{s,t,u\}.$ Assume that $m(s,t)=m(s,u)=3$ and $U_x\cong G_2(3)$ where $x$ is the vertex of the fundamental chamber $C$ of type $s.$ We will show that $U_+$ is finitely generated.
 
 \end{document}
