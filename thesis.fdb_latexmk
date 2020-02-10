@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1580885220 "thesis.tex" "thesis.pdf" "thesis" 1580885221
+["pdflatex"] 1580971342 "thesis.tex" "thesis.pdf" "thesis" 1580971343
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -178,7 +178,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540353152 859997 6b907fd9904e02dae037b93f82759336 ""
   "chapters/exceptionalcase/diagrams/deg6433f2.pdf" 1577808203 259695 69436d3864b05429693d0229ef5dda55 ""
   "chapters/exceptionalcase/diagrams/deg8433f2.pdf" 1577807118 262244 6395e32d409203488a2de63e7070bf75 ""
-  "chapters/exceptionalcase/exceptionalcase.tex" 1580885219 39539 5e7cba54c2068ecaeda0771ade519778 ""
+  "chapters/exceptionalcase/exceptionalcase.tex" 1580971339 42474 5d38c412b1533f7059950c438695a222 ""
   "chapters/generalcase/diagrams/./wtranslationpost.tex" 1576995077 51436 49d38c3b82ce05657ba264fb985f39cf ""
   "chapters/generalcase/diagrams/./wtranslationpre.tex" 1576994844 51451 22b0bdce248ad132b11fa44adbcc933a ""
   "chapters/generalcase/diagrams/defineD.tex" 1576908462 8683 67b204481befb1fd30614cc58cd358a4 ""
@@ -186,11 +186,11 @@
   "chapters/generalcase/generalcase.tex" 1580885037 35744 e9a88f9a1acd715e5662e1701e843449 ""
   "chapters/knownresults/knownresults.tex" 1580877816 15100 b0e7e973057a30c5956d1f02cbbd202d ""
   "preamble.sty" 1579973232 1104 f11401710a1020c4414f28942a7516ed ""
-  "thesis.aux" 1580885220 2775 cc4e405cc36db1c516479749c883b1e0 ""
-  "thesis.sta" 1580885220 1283 b30b9850ec5ac56d729b8830868e8542 ""
+  "thesis.aux" 1580971343 2807 d8adceb038ea9afd1c281a9183c42a17 ""
+  "thesis.sta" 1580971343 1283 b30b9850ec5ac56d729b8830868e8542 ""
   "thesis.tex" 1580760457 428 50dfd3e13fb7d6dc987363c663b9a026 ""
   (generated)
-  "thesis.aux"
   "thesis.pdf"
+  "thesis.aux"
   "thesis.sta"
   "thesis.log"
