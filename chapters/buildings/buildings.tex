@@ -1,0 +1,26 @@
+\documentclass[class=book, crop=false,12 pt]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage{/home/mark/Documents/gradschool/research/thesis/preamble}
+
+%\newcommand{\leqnomode}{\tagsleft@true}
+
+\begin{document}
+\chapter{Buildings and BN-Pairs}
+\label{ch:building}
+In Chapter \ref{ch:coxeter} we saw that for a Coxeter system $(W,S),$ we can define a simplical complex $\Sigma$ which will encapsulate the group theoretic structure of $W$ in its geometry. This allows us to understand, $W$ very well, but is somewhat limited as Coxeter groups are very specific. In this chapter we will see how we can generalize some of these notions to other simplical complexes, and then use geometry to study groups which act on them.
+
+\begin{defn}
+	\label{defn:building}
+	A \emph{building} is a simplical complex $\Delta$ which can be expressed as a union of subcomplexes $\Sigma,$ called Apartments, such that
+	\begin{itemize}
+		\item[(B0)] Every apartment $\Sigma$ is a Coxeter complex
+		\item[(B1)] For any two simplices $A,B\in \Delta,$ there is an apartment containing $A$ and $B.$
+		\item[(B2)] For any two apartments $\Sigma,\Sigma',$ there is an isomorphism from $\Sigma$ to $\Sigma'$ which fixes $\Sigma\cap \Sigma'$ pointwise.
+	\end{itemize}
+\end{defn}
+
+We are using much of the same notation and terminology as \cite{buildings} but we have changed (B2). When introducing the theory of buildings, we can weaken (B2) to another property which is actually equivalent. However, for our purposes it will be easier to simply state the stronger result as an axiom.
+
+
+\end{document}
