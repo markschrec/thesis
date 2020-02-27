@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1582225892 "thesis.aux" "thesis.bbl" "thesis" 1582225903
+["bibtex thesis"] 1582784911 "thesis.aux" "thesis.bbl" "thesis" 1582784912
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
   "bibliography.bib" 1581919091 195 014d6d2e6dcbf8949b253784cadc2d19 ""
-  "thesis.aux" 1582225892 4278 20b61e1be1597407c41aa95d9bd4a8c4 ""
+  "thesis.aux" 1582784912 4611 4c4281d5506a59a4fcbd93b32917a624 ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1582225892 "thesis.tex" "thesis.pdf" "thesis" 1582225903
+["pdflatex"] 1582784911 "thesis.tex" "thesis.pdf" "thesis" 1582784912
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -184,7 +184,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1577686274 2359383 9ab63e128d9bc6a2c579a1b3056af542 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540353152 859997 6b907fd9904e02dae037b93f82759336 ""
-  "chapters/buildings/buildings.tex" 1582225514 1610 e6576219e78b07309448903dc37cc427 ""
+  "chapters/buildings/buildings.tex" 1582784910 12964 b3b814a02924216ba4c13b3f3521c69a ""
   "chapters/coxeter/coxeter.tex" 1582220152 23143 522d6813f2b5277a9325fc29e4a6b1ef ""
   "chapters/exceptionalcase/diagrams/deg6433f2.pdf" 1577808203 259695 69436d3864b05429693d0229ef5dda55 ""
   "chapters/exceptionalcase/diagrams/deg8433f2.pdf" 1577807118 262244 6395e32d409203488a2de63e7070bf75 ""
@@ -196,12 +196,12 @@
   "chapters/generalcase/generalcase.tex" 1581791956 35744 e9a88f9a1acd715e5662e1701e843449 ""
   "chapters/knownresults/knownresults.tex" 1580877816 15100 b0e7e973057a30c5956d1f02cbbd202d ""
   "preamble.sty" 1582220032 1235 74623d81545c8e61cd48a0cd232374a7 ""
-  "thesis.aux" 1582225892 4278 20b61e1be1597407c41aa95d9bd4a8c4 ""
-  "thesis.bbl" 1582225892 224 9b20ebbe1dfcdf8f1b2a01bfd570a511 "bibtex thesis"
-  "thesis.sta" 1582225892 1722 ea0e2b3316818d88b41689628a33fc36 ""
-  "thesis.tex" 1582220179 566 094b4ddb2aac9a58e7437be5af38c20f ""
+  "thesis.aux" 1582784912 4611 4c4281d5506a59a4fcbd93b32917a624 ""
+  "thesis.bbl" 1582784911 224 9b20ebbe1dfcdf8f1b2a01bfd570a511 "bibtex thesis"
+  "thesis.sta" 1582784912 1722 ea0e2b3316818d88b41689628a33fc36 ""
+  "thesis.tex" 1582225919 566 094b4ddb2aac9a58e7437be5af38c20f ""
   (generated)
-  "thesis.pdf"
-  "thesis.log"
   "thesis.aux"
+  "thesis.log"
   "thesis.sta"
+  "thesis.pdf"
