@@ -5,6 +5,9 @@
 \subpreamble{chapters/buildings/buildings.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
+\subpreamble{chapters/rgd/rgd.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\endsubpreamble
 \subpreamble{chapters/knownresults/knownresults.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
