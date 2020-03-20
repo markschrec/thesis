@@ -288,6 +288,8 @@ INPUT chapters/rgd/rgd.tex
 INPUT chapters/knownresults/knownresults.tex
 INPUT chapters/knownresults/knownresults.tex
 INPUT chapters/knownresults/knownresults.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT chapters/generalcase/generalcase.tex
 INPUT chapters/generalcase/generalcase.tex
 INPUT chapters/generalcase/generalcase.tex
@@ -300,8 +302,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT chapters/generalcase/diagrams/defineD.tex
 INPUT chapters/generalcase/diagrams/defineD.tex
 INPUT chapters/generalcase/diagrams/defineD.tex

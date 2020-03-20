@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1584040733 "thesis.aux" "thesis.bbl" "thesis" 1584043583
+["bibtex thesis"] 1584718464 "thesis.aux" "thesis.bbl" "thesis" 1584718795
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "bibliography.bib" 1581919091 195 014d6d2e6dcbf8949b253784cadc2d19 ""
-  "thesis.aux" 1584040734 5153 057e9fee0c57bdd8b785b3ad7ed7ae3c ""
+  "bibliography.bib" 1584595350 910 e79c1ff407a011c3aa954f1b50c10571 ""
+  "thesis.aux" 1584718795 5554 4555fc417808f4d4b6344fb05d7602cf ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1584040733 "thesis.tex" "thesis.pdf" "thesis" 1584043583
+  "thesis.bbl"
+["pdflatex"] 1584718794 "thesis.tex" "thesis.pdf" "thesis" 1584718795
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -184,7 +184,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1577686274 2359383 9ab63e128d9bc6a2c579a1b3056af542 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540353152 859997 6b907fd9904e02dae037b93f82759336 ""
   "chapters/buildings/buildings.tex" 1583863888 13445 78d230d1c90f766c205e68c5954531b6 ""
-  "chapters/coxeter/coxeter.tex" 1583867118 24914 b3aeed1f955b7d79a26a5ec6512c10d5 ""
+  "chapters/coxeter/coxeter.tex" 1584483310 24914 b3aeed1f955b7d79a26a5ec6512c10d5 ""
   "chapters/exceptionalcase/diagrams/deg33n.pdf" 1583203083 182614 1e7184c50c7fe8f9a1d249e94d9b8d35 ""
   "chapters/exceptionalcase/exceptionalcase.tex" 1583203083 39190 2696230fc737774044f8b31833c32154 ""
   "chapters/generalcase/diagrams/./wtranslationpost.tex" 1576995077 51436 49d38c3b82ce05657ba264fb985f39cf ""
@@ -192,15 +192,15 @@
   "chapters/generalcase/diagrams/defineD.tex" 1576908462 8683 67b204481befb1fd30614cc58cd358a4 ""
   "chapters/generalcase/diagrams/mappicture.tex" 1576998262 575 886f13b69ac104dc680ec2e123a89a4e ""
   "chapters/generalcase/generalcase.tex" 1581791956 35744 e9a88f9a1acd715e5662e1701e843449 ""
-  "chapters/knownresults/knownresults.tex" 1580877816 15100 b0e7e973057a30c5956d1f02cbbd202d ""
+  "chapters/knownresults/knownresults.tex" 1584718792 23516 e9d8cfc70ffe1ff30407d7cdd6632356 ""
   "chapters/rgd/rgd.tex" 1584043581 19225 04ddcc39fe3d68b54419541ccc06b2c4 ""
   "preamble.sty" 1582220032 1235 74623d81545c8e61cd48a0cd232374a7 ""
-  "thesis.aux" 1584040734 5153 057e9fee0c57bdd8b785b3ad7ed7ae3c ""
-  "thesis.bbl" 1584040733 224 9b20ebbe1dfcdf8f1b2a01bfd570a511 "bibtex thesis"
-  "thesis.sta" 1584040734 1907 b30a4512dc4a22eba5b147d82c12ca67 ""
+  "thesis.aux" 1584718795 5554 4555fc417808f4d4b6344fb05d7602cf ""
+  "thesis.bbl" 1584718464 738 76bed27bc93cb3d0fa9ce10ed666d357 "bibtex thesis"
+  "thesis.sta" 1584718795 1907 b30a4512dc4a22eba5b147d82c12ca67 ""
   "thesis.tex" 1583203538 594 a3cb2b7bd15b1b21f02eb6169ea374d1 ""
   (generated)
-  "thesis.log"
-  "thesis.pdf"
-  "thesis.sta"
   "thesis.aux"
+  "thesis.pdf"
+  "thesis.log"
+  "thesis.sta"

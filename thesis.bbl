@@ -5,4 +5,20 @@ Peter Abramenko and Kenneth~S Brown.
 \newblock {\em Buildings: theory and applications}, volume 248.
 \newblock Springer Science \& Business Media, 2008.
 
+\bibitem{cop}
+Peter Abramenko and Hendrik~Van Maldeghem.
+\newblock Connectedness of opposite-flag geometries in moufang polygons.
+\newblock {\em Eur. J. Comb.}, 20:461--468, 1999.
+
+\bibitem{globalco}
+Bernhard Muhlherr and Mark Ronan.
+\newblock Local to global structure in twin buildings.
+\newblock In {\em Invent. Math., 122: 71}. Citeseer, 1995.
+
+\bibitem{carter}
+R.W. Carter.
+\newblock {\em Finite Groups of Lie Type: Conjugacy Classes and Complex
+  Characters}.
+\newblock Wiley Classics Library. Wiley, 1993.
+
 \end{thebibliography}
