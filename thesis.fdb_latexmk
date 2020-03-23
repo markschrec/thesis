@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1584718464 "thesis.aux" "thesis.bbl" "thesis" 1584718795
+["bibtex thesis"] 1584982650 "thesis.aux" "thesis.bbl" "thesis" 1584982651
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "bibliography.bib" 1584595350 910 e79c1ff407a011c3aa954f1b50c10571 ""
-  "thesis.aux" 1584718795 5554 4555fc417808f4d4b6344fb05d7602cf ""
+  "bibliography.bib" 1584974561 1303 44a3852e8a84673b475a9296cdae1402 ""
+  "thesis.aux" 1584982651 5717 e2eb0088b09af8c8b6631a3dc1f79cff ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
   "thesis.blg"
   "thesis.bbl"
-["pdflatex"] 1584718794 "thesis.tex" "thesis.pdf" "thesis" 1584718795
+["pdflatex"] 1584982650 "thesis.tex" "thesis.pdf" "thesis" 1584982651
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -192,15 +192,15 @@
   "chapters/generalcase/diagrams/defineD.tex" 1576908462 8683 67b204481befb1fd30614cc58cd358a4 ""
   "chapters/generalcase/diagrams/mappicture.tex" 1576998262 575 886f13b69ac104dc680ec2e123a89a4e ""
   "chapters/generalcase/generalcase.tex" 1581791956 35744 e9a88f9a1acd715e5662e1701e843449 ""
-  "chapters/knownresults/knownresults.tex" 1584718792 23516 e9d8cfc70ffe1ff30407d7cdd6632356 ""
-  "chapters/rgd/rgd.tex" 1584043581 19225 04ddcc39fe3d68b54419541ccc06b2c4 ""
+  "chapters/knownresults/knownresults.tex" 1584752507 22730 5669595bf63ee68b818c31e89085929b ""
+  "chapters/rgd/rgd.tex" 1584979670 21766 4903b15564a35369fd21f25038ae99b1 ""
   "preamble.sty" 1582220032 1235 74623d81545c8e61cd48a0cd232374a7 ""
-  "thesis.aux" 1584718795 5554 4555fc417808f4d4b6344fb05d7602cf ""
-  "thesis.bbl" 1584718464 738 76bed27bc93cb3d0fa9ce10ed666d357 "bibtex thesis"
-  "thesis.sta" 1584718795 1907 b30a4512dc4a22eba5b147d82c12ca67 ""
+  "thesis.aux" 1584982651 5717 e2eb0088b09af8c8b6631a3dc1f79cff ""
+  "thesis.bbl" 1584982650 1035 c96f4bbb3892e0ea001215120905bead "bibtex thesis"
+  "thesis.sta" 1584982650 1907 b30a4512dc4a22eba5b147d82c12ca67 ""
   "thesis.tex" 1583203538 594 a3cb2b7bd15b1b21f02eb6169ea374d1 ""
   (generated)
   "thesis.aux"
+  "thesis.sta"
   "thesis.pdf"
   "thesis.log"
-  "thesis.sta"

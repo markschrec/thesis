@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  20 MAR 2020 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  23 MAR 2020 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,33 +597,44 @@ Overfull \hbox (24.22476pt too wide) in paragraph at lines 87--88
 []\OT1/cmr/m/n/12 Suppose that $(\OML/cmm/m/it/12 W; S\OT1/cmr/m/n/12 )$ is an ar-bi-trary Cox-eter sys-tem with roots $^^H\OML/cmm/m/it/12 :$ \OT1/cmr/m/n/12 Then we say that $(\OML/cmm/m/it/12 G; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ; T\OT1/cmr/m/n/12 )$
  []
 
-[17]) (./chapters/knownresults/knownresults.tex [18]
+[17] [18]) (./chapters/knownresults/knownresults.tex [19]
 Chapter 4.
-[19
+[20
 
-] [20] [21] [22] [23] [24] [25]) (./chapters/generalcase/generalcase.tex [26]
+] [21] [22] [23] [24] [25] [26]) (./chapters/generalcase/generalcase.tex [27]
 Chapter 5.
-[27
 
-] [28] [29] (./chapters/generalcase/diagrams/defineD.tex)
+LaTeX Warning: Reference `thm:knownfg' on page 28 undefined on input line 26.
+
+[28
+
+]
+
+LaTeX Warning: Reference `thm:knownfg' on page 29 undefined on input line 59.
+
+[29] [30] (./chapters/generalcase/diagrams/defineD.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31] (./chapters/generalcase/diagrams/mappicture.tex (./chapters/generalcase/diagrams/./wtranslationpost.tex) (./chapters/generalcase/diagrams/./wtranslationpre.tex))
+[31] [32] (./chapters/generalcase/diagrams/mappicture.tex (./chapters/generalcase/diagrams/./wtranslationpost.tex) (./chapters/generalcase/diagrams/./wtranslationpre.tex))
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32] [33] [34] [35]) (./chapters/exceptionalcase/exceptionalcase.tex [36]
+[33] [34] [35] [36]) (./chapters/exceptionalcase/exceptionalcase.tex [37]
 Chapter 6.
-[37
+[38
 
-] [38]
+] [39]
 Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
-[39] [40] [41] [42] [43]
-<chapters/exceptionalcase/diagrams/deg33n.pdf, id=157, 469.755pt x 469.755pt>
+[40] [41] [42] [43]
+
+LaTeX Warning: Reference `thm:knownfg' on page 44 undefined on input line 235.
+
+[44]
+<chapters/exceptionalcase/diagrams/deg33n.pdf, id=160, 469.755pt x 469.755pt>
 File: chapters/exceptionalcase/diagrams/deg33n.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/deg33n.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/deg33n.pdf  used on input line 261.
@@ -632,12 +643,12 @@ Package pdftex.def Info: chapters/exceptionalcase/diagrams/deg33n.pdf  used on i
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44]
+[45]
 Overfull \hbox (11.98756pt too wide) in paragraph at lines 278--279
 \OT1/cmr/m/n/12 the the-ory of Cheval-ley Groups. Let $\OML/cmm/m/it/12 H \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 U[]; U[]; U[]\OMS/cmsy/m/n/12 i ^^T \OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 and let $\OML/cmm/m/it/12 H[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 U[]; U[]; U[]\OMS/cmsy/m/n/12 i ^^T
  []
 
-[45 <./chapters/exceptionalcase/diagrams/deg33n.pdf>] [46]) (./thesis.bbl [47]) [48
+[46 <./chapters/exceptionalcase/diagrams/deg33n.pdf>] [47]) (./thesis.bbl [48]) [49
 
 ] (./thesis.aux)
 
@@ -645,18 +656,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16383 strings out of 494880
- 333646 string characters out of 6179600
- 392581 words of memory out of 5000000
- 19289 multiletter control sequences out of 15000+600000
+ 16386 strings out of 494880
+ 333673 string characters out of 6179600
+ 392589 words of memory out of 5000000
+ 19292 multiletter control sequences out of 15000+600000
  18823 words of font info for 74 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 73i,12n,90p,1150b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,90p,1150b,976s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (48 pages, 541080 bytes).
+Output written on thesis.pdf (49 pages, 546240 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
+ 249 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

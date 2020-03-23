@@ -46,10 +46,10 @@ For any twin building $\Delta$ of type $(W,S),$ and choice of fundamental apartm
 
 \begin{cor}
 	\label{cor:cofg}
-	Let $(G,(U_\alpha),T)$ is an RGD system of type $(W,S).$ If $W$ is 2-spherical, and the associated building $\Delta$ does not have any rank 2 residues associated to $C_2(2),G_2(2),G_2(3),$ or ${}^2F_4(2)$ then $U_+$ is finitely generated, and $G$ is finitely generated if $T$ is also finitely generated.
+	Let $(G,(U_\alpha),T)$ is an RGD system of type $(W,S).$ If $W$ is 2-spherical, and the associated building $\Delta$ does not have any rank 2 residues associated to $C_2(2),G_2(2),G_2(3),$ or ${}^2F_4(2)$ then $U_+$ is finitely generated.
 \end{cor}
 
-Much of the theory of twin buildings relies on condition (co), and thus uses the assumption that no rank 2 residues are among the 4 exceptional types listed above. For example, if $\Delta$ satisfies (co) then $U_+$ is finitely generated, and if $T$ is finitely generated then $G$ is also finitely generated. Our goal for the remainder will be to fill in some of this theory to include cases where $\Delta$ does not satsify (co). Before we can do this, we will need to collect some more results about the 4 exceptional rank 2 buildings listed above.
+Much of the theory of twin buildings relies on condition (co), and thus uses the assumption that no rank 2 residues are among the 4 exceptional types listed above. For example, if $\Delta$ satisfies (co) then $U_+$ is finitely generated. Our goal for the remainder will be to fill in some of this theory to include cases where $\Delta$ does not satsify (co). Before we can do this, we will need to collect some more results about the 4 exceptional rank 2 buildings listed above.
 
 The groups $C_2(2),G_2(2),$ and $G_2(3)$ are all finite Chevalley groups and so they have well known presentations. The group ${}^2F_4(2)$ is a twisted Chevalley group, but we will not have as much cause to work with this group specifically so we will not work with it as much. A full construction of Chevalley groups can be found in \cite{carter}, among other places, but we will record the specifice presentations found in Corollary 5.2.3.
 
@@ -184,14 +184,17 @@ The previous result can also be used to show that the $W$ action on $\Sigma$ als
 	Since $w$ preserves standard labelings at $v$ and $v'$ we know that it also preserves simple roots. Thus $\bar{f}_w(U_{\alpha_1})=U_{\alpha'_1}$ for a standard labeling, and similarly for $U_{\alpha_n}$ and $U_{\alpha'_n}.$ Since $U'_v=\langle U_{\alpha_1},U_{\alpha_n}\rangle$ and $U'_{v'}=\langle U_{\alpha'_1},U_{\alpha'_n}\rangle$ we can also see that $\bar{f}_w$ sends $U'_v$ to $U'_{v'}.$ Since $\bar{f}_w$ is an isomorphism it also preserves index so $[U_v:U'_v]=[U_{v'}:U'_{v'}].$
 
 	For any vertex $v,$ the map $\phi_v$ exists if and only if $[U_v:U'_v]\ge 2$ and thus $\phi_v$ will exist exactly when $\phi_{v'}$ exists. By Corollary \ref{cor:uniquephiv} we know that $\ker \phi_v$ is a proper normal subgroup of $U_v$ contaning $U'_v$ and thus $\bar{f}_w(\ker \phi_v)$ will be a proper, normal subgroup of $U_{v'}$ containing $U'_{v'}.$ By Corollary \ref{cor:uniquephiv} again this means $\bar{f}_w(\ker \phi_v)=\ker \phi_{v'}$ which completes the result.
-
 \end{proof}
 
 There is another result which we will use extensively in the following chapters, but which is slightly different from what we have done so far. We state the following fact about the geometry of certain Coxeter complexes. 
 
 \begin{lemma}[Triangle Condition]
 	\label{lem:tri}
-	Suppose $\Sigma$ is a Coxeter complex of type $(W,S)$ where $S=\{s,t,u\},$ $3\le m(s,t)\le m(s,u)\le m(t,u)<\infty,$ and $m(t,u)\ge 4.$ 
+	Suppose $\Sigma$ is a Coxeter complex of type $(W,S)$ where $S=\{s,t,u\},$ $3\le m(s,t)\le m(s,u)\le m(t,u)<\infty,$ and $m(t,u)\ge 4.$ Let $\alpha_1,\alpha_2,\alpha_3$ be roots of $\Sigma$ such that $\partial\alpha_i\cap \partial\alpha_j\neq \emptyset$ for all $i,j$ but $\partial\alpha_1\cap \partial\alpha_2\cap \partial \alpha_3=\emptyset.$ If we assume that $\partial\alpha_i\cap \partial\alpha_j\subset \alpha_k$ for $i\neq j\neq k$ then $\alpha_1\cap \alpha_2\cap\alpha_3$ is a chamber of $\Sigma.$
 \end{lemma}
+
+The previous lemma essentially says that a ``Triangle'' formed by 3 walls of $\Sigma$ under the specified conditions must be a single chamber. One way we will use this lemma is by showing two walls cannot intersect, if the resulting triangle would contain more than one chamber.
+
+In the next two chapters we will prove new results about finite generation in RGD systems when the associated building $\Delta$ has exceptional links as described in this chapter.
 
 \end{document}
