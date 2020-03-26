@@ -9,7 +9,7 @@
 \begin{document}
 \chapter{Coxeter Groups and Coxeter Complexes}
 \label{ch:coxeter}
-The theory of RGD systems was developed \textcolor{red}{for some reason.} These systems describe groups with an incredible ammound of geometric structure, which allows us to say a great deal about the group theory. While we will ultimately use some geometric properties to prove results about finite generation in RGD systems, before we can do that we will need to understand the underlying geometry. This geometry starts with Coxeter groups.
+The RGD systems and Kac-Moody groups discussed in the introduction have a large ammount of geometric structure which we can use to study them. The foundations of this geometry come from the idea of reflection groups studied by H.S.M. Coxeter in the 1930's. These reflection groups, and their associate geometry, have particularly nice properties, and they provide the foundation for the study of RGD systems.
 
 \section{Coxeter Groups}
 \label{sec:coxgrp}
@@ -121,7 +121,7 @@ Intuitively we should think of Coxeter groups as reflection groups in some space
 	For any adjacent chambers $D,D',$ let $\alpha_{D,D'}$ be the subcomplex of $\Sigma$ defined by $\mathcal{C}(\alpha_{D,D'})=\{E\in \Sigma|d(E,D)<d(E,D')\}.$ Then $\alpha_{D,D'}$ is called a root, and the collection of all $\alpha_{D,D'}$ for adjacent chambers $D$ and $D'$ are called the roots of $\Sigma.$
 \end{defn}
 
-We will denote the set of all roots of $\Sigma$ by $\Phi.$ A consequence of Theorem \ref{Mop} is that $d(E,D)\neq d(E,D')$ for every chamber $E$ of $\Sigma,$ so we cna think about $\alpha_{D,D'}$ as the chambers which are closer to $D$ than to $D'.$ This also means that for any chamber $E,$ we have either $d(E,D)>d(E,D')$ or $d(E,D)<d(E,D').$ If $D$ and $D'$ are adjacent chambers then both $\alpha_{D,D'}$ and $\alpha_{D',D}$ will be roots, and we will have $\mathcal{C}(\alpha_{D,D'})\cap \mathcal{C}(\alpha_{D',D})=\emptyset$ and $\mathcal{C}(\alpha_{D,D'})\cup \mathcal{C}(\alpha_{D',D})=\mathcal{C}(\Sigma).$
+We will denote the set of all roots of $\Sigma$ by $\Phi.$ A consequence of Theorem \ref{thm:Mop} is that $d(E,D)\neq d(E,D')$ for every chamber $E$ of $\Sigma,$ so we cna think about $\alpha_{D,D'}$ as the chambers which are closer to $D$ than to $D'.$ This also means that for any chamber $E,$ we have either $d(E,D)>d(E,D')$ or $d(E,D)<d(E,D').$ If $D$ and $D'$ are adjacent chambers then both $\alpha_{D,D'}$ and $\alpha_{D',D}$ will be roots, and we will have $\mathcal{C}(\alpha_{D,D'})\cap \mathcal{C}(\alpha_{D',D})=\emptyset$ and $\mathcal{C}(\alpha_{D,D'})\cup \mathcal{C}(\alpha_{D',D})=\mathcal{C}(\Sigma).$
 
 The roots $\alpha_{D,D'}$ and $\alpha_{D',D}$ are very closely related, and roughly correspond to the two half spaces defined by a reflection. To differentiate between these roots, we say a root is \emph{positive} if it contains the fundamental chamber $C.$ This choice is of course arbitrary, but the chamber $C$ is a convinient choice. Similarly, we say a root is negative if it does not contain $C,$ and we say that $\alpha_{D,D'}$ and $\alpha_{D',D}$ are opposite roots. We will also denote this with the notation $\alpha_{D',D}=-\alpha_{D,D'}.$
 
