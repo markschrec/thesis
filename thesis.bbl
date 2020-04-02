@@ -1,5 +1,21 @@
 \begin{thebibliography}{1}
 
+\bibitem{cop}
+Peter Abramenko and Hendrik~Van Maldeghem.
+\newblock Connectedness of opposite-flag geometries in moufang polygons.
+\newblock {\em Eur. J. Comb.}, 20:461--468, 1999.
+
+\bibitem{jtco}
+Jacques Tits.
+\newblock Ensembles ordonn{\'e}s, immeubles et sommes amalgam{\'e}es.
+\newblock {\em Bulletin de la Soci{\'e}t{\'e} math{\'e}matique de Belgique.
+  S{\'e}rie A}, 38:367--387, 1986.
+
+\bibitem{globalco}
+Bernhard Muhlherr and Mark Ronan.
+\newblock Local to global structure in twin buildings.
+\newblock In {\em Invent. Math., 122: 71}. Citeseer, 1995.
+
 \bibitem{buildings}
 Peter Abramenko and Kenneth~S Brown.
 \newblock {\em Buildings: theory and applications}, volume 248.
@@ -15,20 +31,15 @@ Jacques Tits.
 \newblock Uniqueness and presentation of kac-moody groups over fields.
 \newblock {\em Journal of algebra}, 105(2):542--573, 1987.
 
-\bibitem{cop}
-Peter Abramenko and Hendrik~Van Maldeghem.
-\newblock Connectedness of opposite-flag geometries in moufang polygons.
-\newblock {\em Eur. J. Comb.}, 20:461--468, 1999.
-
-\bibitem{globalco}
-Bernhard Muhlherr and Mark Ronan.
-\newblock Local to global structure in twin buildings.
-\newblock In {\em Invent. Math., 122: 71}. Citeseer, 1995.
-
 \bibitem{carter}
 R.W. Carter.
 \newblock {\em Finite Groups of Lie Type: Conjugacy Classes and Complex
   Characters}.
 \newblock Wiley Classics Library. Wiley, 1993.
+
+\bibitem{free}
+Pierre-Emmanuel Caprace and Bertrand Rémy.
+\newblock Groups with a root group datum.
+\newblock {\em Innov. Incidence Geom.}, 9(1):5--77, 2009.
 
 \end{thebibliography}

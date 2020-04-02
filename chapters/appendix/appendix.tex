@@ -1,0 +1,17 @@
+\documentclass[class=book, crop=false,12 pt]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\RequirePackage{/home/mark/Documents/gradschool/research/thesis/preamble}
+\usepackage{listings}
+
+%\newcommand{\leqnomode}{\tagsleft@true}
+
+\begin{document}
+\chapter{Code for Diagram Generation}
+\label{ch:app}
+Included in Appendix \ref{ch:app} is the Python code used to generate the various figures. All files should be saved in the same folder, and only hyperbolictilinggenerator.py needs to be run. The code will create (or modify) a document named texcode.tex. This document uses the standalong package, and should be able to be compiled as is, imported into another document, or simply gutted for the tikz code. A word of warning, the code can generate exceptionally large tikz pictures. There is no check to determine how long the program will run with given inputs, and there is certainly no way of telling how long your \LaTeX compiler will take to actually compile the document.
+
+\lstinputlisting[language=Python]{/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/simplex.py}
+
+
+\end{document}

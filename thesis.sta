@@ -1,18 +1,21 @@
 \standalonepreambles
+\subpreamble{chapters/intro/intro.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\endsubpreamble
 \subpreamble{chapters/coxeter/coxeter.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}\newcommand {\cop }{\ensuremath {C^{\text {op}}}}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}\newcommand {\cop }{\ensuremath {C^{\text {op}}}}
 \endsubpreamble
 \subpreamble{chapters/buildings/buildings.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
 \subpreamble{chapters/rgd/rgd.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
 \subpreamble{chapters/knownresults/knownresults.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
 \subpreamble{chapters/generalcase/generalcase.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}
 \endsubpreamble
 \subpreamble{chapters/generalcase/diagrams/defineD.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {tikz}
@@ -27,6 +30,6 @@
 \usepackage [subpreambles=true]{standalone}\usepackage {tikz}
 \endsubpreamble
 \subpreamble{chapters/exceptionalcase/exceptionalcase.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {/home/mark/Documents/gradschool/research/thesis/preamble}\usepackage {import}
+\usepackage [subpreambles=true]{standalone}\RequirePackage {/home/mark/Documents/gradschool/research/thesis/preamble}\usepackage {import}
 \endsubpreamble
 \endstandalonepreambles

@@ -1,6 +1,6 @@
 \documentclass[class=book, crop=false]{standalone}
 \usepackage[subpreambles=true]{standalone}
-\usepackage{/home/mark/Documents/gradschool/research/thesis/preamble}
+\RequirePackage{/home/mark/Documents/gradschool/research/thesis/preamble}
 \usepackage{import}
 
 \begin{document}
@@ -42,14 +42,14 @@ We have shown that if $\ell(w)\ge 2$ then $w\not\in \D$ and thus $\D$ must be fi
 
 The previous lemma shows that finding chambers of $\D$ is not simply a matter of more clever choices of $W.$ We will therefore have to find a new approach to the remaining cases. Before tackling these cases, we will first enumerate what remains to be shown.
 
-With the assumptions of this chapter we know $(W,S)$ is a Coxeter system with $S=\{s,t,u\}.$ We assume that $m(s,t)=m(s,u)=3$ so that $\lk(v')$ will not be one of the exceptional Moufang polygons if $v'$ has type $u$ or $t.$ We want to assume that the building $\Delta$ does have an exceptional link as otherwise there is nothing new two show, so we will assume that there is a vertex $v,$ of type $s,$ with link coresponding to one of the 4 exceptional Moufang polygons. This implies that every vertex of type $s$ will have an exceptional link, and we let $x$ be the vertex of $C$ of type $s$ for some choice of fundamental chamber $C$ and fundamental apartment $\Sigma.$
+With the assumptions of this chapter we know $(W,S)$ is a Coxeter system with $S=\{s,t,u\}.$ We assume that $m(s,t)=m(s,u)=3$ so that $\lk(v')$ will not be one of the exceptional Moufang polygons if $v'$ has type $u$ or $t.$ We want to assume that the building $\Delta$ does have an exceptional link as otherwise there is nothing new two show, so we will assume that there is a vertex $v,$ of type $s,$ with link corresponding to one of the 4 exceptional Moufang polygons. This implies that every vertex of type $s$ will have an exceptional link, and we let $x$ be the vertex of $C$ of type $s$ for some choice of fundamental chamber $C$ and fundamental apartment $\Sigma.$
 
 Citing Lemma \ref{lem:index} again we see that $\lk(x)$ must be the Moufang Polygon associated to one of the groups $C_2(2),G_2(2),G_2(3),{}^2F_4(2).$ According to private communication with Bernhard M\"{u}hlherr the case where $\lk(x)$ is associated to ${}^2F_4(2)$ is impossible and so we have just the 3 possibilities to consider. We will handle these in separate sections.
 
 \section{Case: $\lk(x)$ associated to the group $G_2(2)$}
 Assume that $(G,(U_\alpha)_{\alpha\in \Phi},T)$ is an RGD system of type $(W,S)$ as in the setup. Choose a fundamental apartment and chamber $\Sigma$ and $C$ of the associated building $\Delta,$ and assume that $\lk(x)$ is the building associated to $G_2(2)$ where $x$ is the vertex of $C$ of type $s.$ Notably this implies that $m(t,u)=6.$
 
-We saw in the previous chapter that a vertex contained in $\D$ was a sufficient condition to construct a corresponding map $\tilde{\phi_v}.$ However, it is not a necessary condition, and we will see in this section we can relax a few conditions to still construct $\tilde{\phi_v}$ for infinitely many vertices. Our first step is to make some general observations about this case and then prove a statment similar to Lemma \ref{lem:existence}.
+We saw in the previous chapter that a vertex contained in $\D$ was a sufficient condition to construct a corresponding map $\tilde{\phi_v}.$ However, it is not a necessary condition, and we will see in this section we can relax a few conditions to still construct $\tilde{\phi_v}$ for infinitely many vertices. Our first step is to make some general observations about this case and then prove a statement similar to Lemma \ref{lem:existence}.
 
 We still have the presentation of $U_+$ as in Lemma \ref{lem:upres} and so extending $\phi_v$ is still a matter of checking the commutator relations in $U_+.$ We want to extend the map in the same way by defining $\tilde{\phi}_v$ by
 \[
@@ -112,13 +112,13 @@ Now recall that $x$ is the vertex of $C$ of type $s$ so that $[U_x:U'_x]=2.$ Let
 
 	Now suppose that $\partial \gamma\cap \partial \delta=y\neq x.$ From the local geometry of $\Sigma$ around $x$ we can see the following facts. For any $\alpha_i$ with $2\le i\le n-1$ we know that $\partial\alpha_i\cap \alpha_1\cap \alpha_6=\{x\}$ and $\partial\alpha_i\subset \alpha_1\cup\alpha_6.$ Thus the point $y$ will lie in exactly one of $\alpha_1$ or $\alpha_6.$
 
-	First suppose that $y\in \alpha_1$ so that $y\not\in \alpha_6.$ If $\partial\alpha_6\cap \partial\delta=\emptyset$ then there are exactly 3 possibilities. Either $\alpha_6\subset \delta,$ $\delta\subset\alpha_6,$ or $-\delta\subset \alpha_6.$ But the last two possibilites would contradict our assumption that $y\not\in \alpha_6$ and thus we get $\alpha_6\subset \delta$ and thus $\D'\subset \alpha_6\subset \gamma\cap\delta$ as desired.
+	First suppose that $y\in \alpha_1$ so that $y\not\in \alpha_6.$ If $\partial\alpha_6\cap \partial\delta=\emptyset$ then there are exactly 3 possibilities. Either $\alpha_6\subset \delta,$ $\delta\subset\alpha_6,$ or $-\delta\subset \alpha_6.$ But the last two possibilities would contradict our assumption that $y\not\in \alpha_6$ and thus we get $\alpha_6\subset \delta$ and thus $\D'\subset \alpha_6\subset \gamma\cap\delta$ as desired.
 
 	Alternatively, assume that $\partial\alpha_6\cap \partial\delta=y'.$ Then the points $x,y,y'$ will form a triangle with sides on walls of $\Sigma.$ Then by the triangle condition, these three vertices must form a chamber, call it $E.$ The points $x,y$ lie on $\partial\gamma=\partial\alpha_i$ and the points $x,y'$ lie on $\partial\alpha_6.$ Since $y$ and $y'$ are adjacent this means that either $\gamma=\alpha_5$ or $\gamma=\alpha_1.$ The latter is a contradiction of our assumptions and thus $\gamma=\alpha_5.$ We know that $y$ and $y'$ are adjacent and $y\in \alpha_1.$ Since neither $y$ or $y'$ lies on $\partial\alpha_1$ this means that $y'\in \alpha_1$ as well.
 
 	We know that $E$ is a chamber in $\st(x)$ with a side on $\partial \alpha_6$ and $\partial\alpha_5.$ let $D=tC$ and $D'$ be the chamber opposite $D$ in $\st(x).$ Then either $E=D$ or $E=D'.$ By definition, $\alpha_6$ is the only wall separating $C$ and $tC$ which means $D=tC\in \alpha_1.$ If $E=D'$ then $D'\in \alpha_1$ since $x,y,y'$ all lie in $\alpha_1.$ But this is a contradiction as $\alpha_1$ cannot contain two opposite chambers in $\st(x).$ Thus $E=D=tC$ and $\delta=\beta$ by definition. Thus $\D'\subset \beta=\delta$ and $\D'\subset \gamma\cap \delta$ as desired.
 
-	If we assume insteach that $y\in\alpha_1$ so that $y\not\in \alpha_6$ then we have the same two possibilites. If $\partial \alpha_6\cap \partial \delta=\emptyset$ then by similar arguments we get $\D'\subset \alpha_6\subset \delta$ and thus $\D'\subset \gamma\cap \delta$ as desired. If $\partial \alpha_6\cap \partial\delta=y'$ then the vertices $x,y,y'$ form a chamber with $y'$ on $\alpha_6.$ Again, by similar arguments as before, this would imply that $\gamma=\alpha_2$ or $\alpha_6,$ both of which are impossible.
+	If we assume instead that $y\in\alpha_1$ so that $y\not\in \alpha_6$ then we have the same two possibilities. If $\partial \alpha_6\cap \partial \delta=\emptyset$ then by similar arguments we get $\D'\subset \alpha_6\subset \delta$ and thus $\D'\subset \gamma\cap \delta$ as desired. If $\partial \alpha_6\cap \partial\delta=y'$ then the vertices $x,y,y'$ form a chamber with $y'$ on $\alpha_6.$ Again, by similar arguments as before, this would imply that $\gamma=\alpha_2$ or $\alpha_6,$ both of which are impossible.
 
 	Therefore, regardless of case we have $\D'\subset \gamma\cap \delta$ as desired.
 	
@@ -164,7 +164,7 @@ Now we fix $i\in \{3,4,5\}$ and we need to check $\gamma_i$ is simple at all ver
 
 \end{proof}
 
-As in the previous chapter, we now have a potentially large class of vertices for which $\tilde{\phi}_v$ exists, but we still must show there are infinitely many, and that they do not lie on finitely many walls. The aproach will be similar as in the previous chapter, and recall in our current setup that $m(s,t)=m(s,u)=3$ and $m(t,u)=6.$
+As in the previous chapter, we now have a potentially large class of vertices for which $\tilde{\phi}_v$ exists, but we still must show there are infinitely many, and that they do not lie on finitely many walls. The approach will be similar as in the previous chapter, and recall in our current setup that $m(s,t)=m(s,u)=3$ and $m(t,u)=6.$
 
 \begin{lemma}
 	\label{lem:336f2inf}
@@ -241,7 +241,7 @@ There are two more cases to consider and they will be the topic of the next sect
 \section{Case: $\lk(x)$ associated to the group $C_2(2)$ or $G_2(3)$}
 The two remaining cases to consider are as follows. $(G,(U_\alpha)_{\alpha\in \Phi},T)$ is an RGD system of type $(W,S)$ satisfying \eqref{assume}. We also assume that $x$ is the vertex of the fundamental chamber $C$ of type $s$ and $\lk(x)$ is the Moufang polygon associated to the group $C_2(2)$ or $G_2(3).$ Finally we assume that $a=m(s,t)=b=m(s,u)=3.$
 
-In the previous section we were able to modify the strategy of Chapter \ref{ch:general} to see that $U_+$ was not finitely generated. No ammount of modification to that strategy will work in the current context as we will show that in these cases, the group $U_+$ will be finitely generated. We will do this by defining a filtration of $U_+$ with nice finiteness properties.
+In the previous section we were able to modify the strategy of Chapter \ref{ch:general} to see that $U_+$ was not finitely generated. No amount of modification to that strategy will work in the current context as we will show that in these cases, the group $U_+$ will be finitely generated. We will do this by defining a filtration of $U_+$ with nice finiteness properties.
 
 We will say that a chamber $D$ borders a root $\alpha$ if a panel of $\D$ lies on the wall $\partial \alpha.$ For any positive root $\alpha\in \Phi$ this allows us to define $d(\alpha,C)$ to be $\min\{d(D,C)|D\text{ borders }\alpha.$ If $d(\alpha,C)=n$ then we know there is some chamber $D$ such that $D$ borders $\alpha$ and $d(D,C)=n.$ Furthermore, we know that $D$ must be a chamber of $\alpha,$ as otherwise there would be a chamber $D'$ adjacent to $D$ across $\partial\alpha$ with $d(D',C)<d(D,C).$ 
 
@@ -252,7 +252,7 @@ We will say that a chamber $D$ borders a root $\alpha$ if a panel of $\D$ lies o
 	Suppose $v$ is a vertex of $\Sigma$ with $U_v=U'_v.$ If $d(\proj_v(C),C)=k$ then $U_v\subset U_k.$
 \end{lemma}
 \begin{proof}
-	Let $\alpha_1,\dots,\alpha_n$ be a standard labeling of the positive roots through $v$ and let $E=\proj_v(C).$ By the properties of projections we know that $E$ is the only chamber in $\st(v)$ which is contained in $\alpha_1$ and $\alpha_n.$ Suppose that $E$ borders some root $\alpha_i$ for $2\le i\le n-1.$ Then we can choose a chamber $D$ which is adjacent to $E$ along $\partial\alpha_i.$ Since $\partial \alpha_i$ is the only wall crossed in a gallery from $E$ to $D,$ we must have that $D\in \alpha_1\cap \alpha_n$ as well. This is a contradiction, and thus $E$ cannot border $\alpha_i$ for $2\le i\le n-1.$ But the chambers in $\st(v)$ are arranged in a circular pattern around $v,$ with walls separtating each, each chamber of $\st(v)$ must border exactly two of $\alpha_1,\dots,\alpha_n.$ Thus $E$ must border $\alpha_1$ and $\alpha_n.$
+	Let $\alpha_1,\dots,\alpha_n$ be a standard labeling of the positive roots through $v$ and let $E=\proj_v(C).$ By the properties of projections we know that $E$ is the only chamber in $\st(v)$ which is contained in $\alpha_1$ and $\alpha_n.$ Suppose that $E$ borders some root $\alpha_i$ for $2\le i\le n-1.$ Then we can choose a chamber $D$ which is adjacent to $E$ along $\partial\alpha_i.$ Since $\partial \alpha_i$ is the only wall crossed in a gallery from $E$ to $D,$ we must have that $D\in \alpha_1\cap \alpha_n$ as well. This is a contradiction, and thus $E$ cannot border $\alpha_i$ for $2\le i\le n-1.$ But the chambers in $\st(v)$ are arranged in a circular pattern around $v,$ with walls separating each, each chamber of $\st(v)$ must border exactly two of $\alpha_1,\dots,\alpha_n.$ Thus $E$ must border $\alpha_1$ and $\alpha_n.$
 
 	By definition, since $E$ borders $\alpha_1,$ we know that $d(\alpha_1,C)\le d(E,C)=k$ and similarly for $\alpha_n.$ Thus $U_{\alpha_1},U_{\alpha_n}\subset U_k.$ Since $U'_v=\langle U_{\alpha_1},U_{\alpha_n}\rangle$ we know that $U'_v\subset U_k$ and thus $U_v\subset U_k$ by assumption as desired.
 \end{proof}
@@ -264,7 +264,7 @@ When $U'_v\neq U_v$ the situation is slightly more complicated, but we can still
 \begin{proof}
 	The groups $U_{\alpha_1}$ and $U_{\alpha_k}$ are contained in $U_k$ by arguments identical to those in Lemma \ref{lem:deg3fg}.
 
-	Let $E=\proj_v(C).$ Let $D$ and $D'$ be the chambers in $\st(v)$ which are adjacent to $E,$ and assume that $D$ and $E$ are separtated by $\partial\alpha_1$ while $D'$ and $E$ are separated by $\partial\alpha_n.$ Since $d(E,C)\ge 2$ by assumption, we know that there is a minimal gallery from $E$ to $C$ containing at least 3 chambers. Choose such a minimal gallery which starts with chambers $E,F,G.$ By definition $d(F,C)=d(E,C)-1$ and thus $F$ cannot be either $D$ or $D'$ since $d(D,C)=d(D,E)+d(E,C)>d(E,C)$ by the gate property, and similarly for $D'.$ The chambers $E$ and $F$ have two vertices in common, and the chambers $F$ and $G$ have two vertices in common, so $E,F,G$ must have a vertex in common, call it $v'.$ Since $d(F,C)<d(E,C)$ we know that $F\not\in \st(v)$ by the definition of projections, and thus $v'\neq v.$ But $v'$ is also a vertex of $E$ so $v$ and $v'$ are two distinct vertices of $E.$ Since $[U_v:U'_v]\ge 2$ we know that $|\st(v)|\ge 8$ and thus $|\st(v')|=6$ since two of the edge labels for $W$ are 3.
+	Let $E=\proj_v(C).$ Let $D$ and $D'$ be the chambers in $\st(v)$ which are adjacent to $E,$ and assume that $D$ and $E$ are separated by $\partial\alpha_1$ while $D'$ and $E$ are separated by $\partial\alpha_n.$ Since $d(E,C)\ge 2$ by assumption, we know that there is a minimal gallery from $E$ to $C$ containing at least 3 chambers. Choose such a minimal gallery which starts with chambers $E,F,G.$ By definition $d(F,C)=d(E,C)-1$ and thus $F$ cannot be either $D$ or $D'$ since $d(D,C)=d(D,E)+d(E,C)>d(E,C)$ by the gate property, and similarly for $D'.$ The chambers $E$ and $F$ have two vertices in common, and the chambers $F$ and $G$ have two vertices in common, so $E,F,G$ must have a vertex in common, call it $v'.$ Since $d(F,C)<d(E,C)$ we know that $F\not\in \st(v)$ by the definition of projections, and thus $v'\neq v.$ But $v'$ is also a vertex of $E$ so $v$ and $v'$ are two distinct vertices of $E.$ Since $[U_v:U'_v]\ge 2$ we know that $|\st(v)|\ge 8$ and thus $|\st(v')|=6$ since two of the edge labels for $W$ are 3.
 
 	There are exactly 2 chambers in $\st(v')$ which are adjacent to $E,$ and there are exactly 3 vertices in $\Sigma$ adjacent to $E,$ namely $F,D,D'.$ Thus either $D$ or $D'$ is in $\st(v').$ Assume that $D\in \st(v').$ then we know that $d(D,C)>d(E,C)>d(F,C)>d(G,C)$ and $D,E,F,G$ form a gallery. Therefore, $d(D,C)=d(G,C)+3$ and since $|\st(v)|=6$ we know that $D$ and $G$ are opposite in $\st(v').$ This means there is another minimal gallery $D,E',F',G$ in $\st(v')$ from $D$ to $G$ which does not include $E$ or $F.$ This minimal gallery can also be extended to a minimal gallery from $D$ to $C$ by using the original gallery after $G.$
 
@@ -277,7 +277,7 @@ When $U'_v\neq U_v$ the situation is slightly more complicated, but we can still
 \end{figure}
 
 
-	Since $\partial\alpha_1$ separates $D$ and $E,$ we know that $D$ borders $\partial \alpha_2.$ We know that $D$ and $E'$ share two vertices, one of which is $v'.$ The other one cannot be $v$ as the only two chambers which share $v$ and $v'$ are $D,E$ and we assume $E'\neq E.$ Thus we can say that $D,E'$ share two vertices, $v,v''$ and $v''\neq v.$ As before, this means $|\st(v'')|=6.$ Since $D$ borders $\partial \alpha_2$ also know that two vertices of $D$ lie on $\partial \alpha_2.$ The vertex $v'$ cannot lie on $\partial\alpha_2$ as we know that $\partial\alpha_1$ contains $v$ and $v'$ and two distinct walls cannot share two vertices. Therfore, $v''$ lies on $\partial \alpha_2.$ 
+	Since $\partial\alpha_1$ separates $D$ and $E,$ we know that $D$ borders $\partial \alpha_2.$ We know that $D$ and $E'$ share two vertices, one of which is $v'.$ The other one cannot be $v$ as the only two chambers which share $v$ and $v'$ are $D,E$ and we assume $E'\neq E.$ Thus we can say that $D,E'$ share two vertices, $v,v''$ and $v''\neq v.$ As before, this means $|\st(v'')|=6.$ Since $D$ borders $\partial \alpha_2$ also know that two vertices of $D$ lie on $\partial \alpha_2.$ The vertex $v'$ cannot lie on $\partial\alpha_2$ as we know that $\partial\alpha_1$ contains $v$ and $v'$ and two distinct walls cannot share two vertices. Therefore, $v''$ lies on $\partial \alpha_2.$ 
 
 	We have that $v''$ is a vertex of $\Sigma$ with $|\st(v'')|=6$ and thus $U_{v''}=U'_{v''}.$ We also know that $E'\in \st(v'')$ and $d(E',C)=d(D,C)-1=d(E,C)=k.$ Thus $d(\proj_{v''}(C),C)\le k.$ By Lemma \ref{lem:deg3fg} this means that $U_{v''}\subset U_k.$ But $\alpha_2$ is a positive root through $v''$ and thus $U_{\alpha_2}\subset U_k$ as desired.
 
@@ -301,7 +301,7 @@ As we saw in Lemma \ref{lem:generators}, if $\lk(x)$ is associated to $C_2(2)$ o
 		\label{fig:vdef}
 	\end{figure}
 
-	Let $E=\proj_v(C).$ Then $E$ is the chamber in $\st(v)$ which minimizes the distance to $C.$ Since $D'\in \st(v)$ and $d(D',C)<d(D,C)$ we know that $E\neq D$ and $l=d(E,C)<d(D,C)=k.$ There are exactly two possibilites for $v.$ If $v$ is a vertex of type $t$ or $u$ then $|\st(v)|=6$ and $U_v=U'_v.$ Then we can apply Lemma \ref{lem:deg3fg} to see that $U_v\subset U_l\subset U_{k-1},$ and since $U_\gamma \subset U_v$ we know that $U_\gamma \subset U_{k-1}$ as desired.
+	Let $E=\proj_v(C).$ Then $E$ is the chamber in $\st(v)$ which minimizes the distance to $C.$ Since $D'\in \st(v)$ and $d(D',C)<d(D,C)$ we know that $E\neq D$ and $l=d(E,C)<d(D,C)=k.$ There are exactly two possibilities for $v.$ If $v$ is a vertex of type $t$ or $u$ then $|\st(v)|=6$ and $U_v=U'_v.$ Then we can apply Lemma \ref{lem:deg3fg} to see that $U_v\subset U_l\subset U_{k-1},$ and since $U_\gamma \subset U_v$ we know that $U_\gamma \subset U_{k-1}$ as desired.
 
 	Now suppose that $v$ is a vertex of type $s.$ Then $\lk(v)\cong \lk(x)$ is the Moufang polygon for either $C_2(2)$ or $G_2(3).$ If $d(E,C)\ge 2$ then we can apply Lemma \ref{lem:exdegfg} to say that $U_{\alpha_1},U_{\alpha_n}$ and at least one of $U_{\alpha_2}$ and $U_{\alpha_{n-1}}$ is contained in $U_l\subset U_k.$ Now we can apply Lemma \ref{lem:generators} to see that $U_v\subset U_l\subset U_k.$ Since $\gamma$ is a positive root through $v$ we know that $U_\gamma \subset U_v$ and thus $U_\gamma\subset U_k$ as desired.
 
@@ -311,6 +311,62 @@ As we saw in Lemma \ref{lem:generators}, if $\lk(x)$ is associated to $C_2(2)$ o
 \end{proof}
 
 With this theorem, we have completely determined finite generation for $U_+$ in all RGD systems satisfying \eqref{assume}. In particular, we have determined finite generation for $U_+$ in all rank 3 Kac-Moody groups where the Weyl group $W$ does not have any 2's in the Coxeter diagram. 
+
+Theorem \ref{thm:334fg} shows that in the current setup, not only is $U_+$ finitely generated, but it says that $U_+=U_2$ so that $U_+$ is generated by the root groups $U_\alpha$ with $d(\alpha,C)\le 2.$ There remains the question of whether this generating set is minimal. The answer here is a resounding no, as we will explain. We will not be able to completely solve the question of finding a minimal generating set but we will be able to make a few remarks. First we will pare down the generators of $U_+$ as much as possible by using the commutator relations. While there are similarities between the two cases, it will be easiest to consider each one separately. First suppose that $\lk(x)$ is the group associated to $C_2(2).$ Consider the Coxeter complex of $W$ with the labeling of the roots with $d(\alpha,C)\le 2$ as in Figure \ref{fig:root334}. Of course we do not duplicate roots so every panel does not have a label.
+
+	\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=6.5 in]{diagrams/roots334.pdf}
+	\end{center}	
+	\caption{Unique roots with $d(\alpha,C)\le 2$ with $|\st(x)|=8$}
+	\label{fig:root334}
+	\end{figure}
+
+Letting $U_i=U_{\alpha_i}$ for all $i,$ we can apply Lemma 3 from \cite{buildings}, as well as Lemma \ref{lem:generators} to write some of these root groups in terms of others. By examining the diagram we get the following relations
+\begin{align*}
+	U_5&\subset \langle U_1,U_2,U_4\rangle\\
+	U_6&\subset \langle U_2,U_3\rangle\\
+	U_7&\subset \langle U_1,U_3\rangle\\
+	U_8&\subset \langle U_5,U_6\rangle\\
+	U_{10}&\subset \langle U_6,U_7,U_9\rangle\\
+	U_{11}&\subset \langle U_4,U_7\rangle\\
+\end{align*}
+all of which together show that $U_+=\langle U_1,U_2,U_3,U_4,U_9\rangle.$
+
+
+	\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=6.5 in]{diagrams/roots336.pdf}
+	\end{center}	
+	\caption{Unique roots with $d(\alpha,C)\le 2$ with $|\st(x)|=12$}
+	\label{fig:root336}
+	\end{figure}
+Now consider the case when $\lk(x)$ is associated to the group $G_2(3).$ Then we have a similar diagram with labels in Figure \ref{fig:root336}.  Using the same notation as before and similar analysis we get the following relations
+\begin{align*}
+	U_5,U_8,U_9&\subset \langle U_1,U_2,U_4\rangle\\
+	U_6&\subset \langle U_2,U_3\rangle\\
+	U_7&\subset \langle U_1,U_3\rangle\\
+	U_{10}&\subset \langle U_5,U_6\rangle\\
+	U_{12}&\subset \langle U_6,U_7,U_{11}\rangle\\
+	U_{13}&\subset \langle U_4,U_7\rangle\\
+\end{align*}
+which together show that $U_+=\langle U_1,U_2,U_3,U_5,U_{11}\rangle.$ In both of these cases, every group $U_\alpha$ is cyclic of prime order, and thus $U_+$ is actually generated by some choice of generator for each $U_i,$ but this is a minor detail and it is more convenient to work with the root groups as a whole. 
+
+It is possible to make other choices of relations to get other generating sets as well. For example, replacing $U_9$ or $U_{11}$ by $U_{10}$ or $U_{12}$ would also produce a generating set, but one which is more or less equivalent up to some relabeling of the diagram. We will not show that this generating set is minimal but we can make at least one remark.
+
+Any generating set of $U_+$ consisting of root groups must contain at least 3 root groups. If $U_+=\langle U_\alpha,U_\beta\rangle$ then there are 3 possibilities for the pair $\alpha,\beta.$ If $\partial\alpha$ and $\partial\beta$ meet then $\langle U_\alpha,U_\beta\rangle\subset U_v$ where $v$ is the point of intersection. But $U_v$ is finite so this is impossible. If $\alpha$ and $\beta$ are nested the condition \eqref{assume} says that $[U_\alpha,U_\beta]=\{1\}$ so $\langle U_\alpha,U_\beta\rangle=U_\alpha U_\beta$ which is also finite and thus impossible. The last possibility is that the pair $\alpha,\beta$ is not pre-nilpotent. In this case, as stated in \cite{free}, the subgroup $\langle U_\alpha,U_\beta\rangle$ is the free product of $U_\alpha$ and $U_\beta.$ We can always find a root $\gamma$ such that $\alpha\subset \gamma$ and thus $U_\alpha$ and $U_\gamma$ will commute. But the centralizer of $U_\alpha$ in $U_\alpha\ast U_\beta$ is $U_\alpha$ which is a contradiction. Thus any minimal generating set consisting of root groups must contain at least 3 root groups. 
+
+It seems likely based on the commutator relations, and the similarity of these two generating sets that they are in fact minimal generating sets consisting of root groups. There is not much more that can be said at the present time.
+
+\section{Future Questions}
+As we have exhausted the question of when groups with RGD systems satisfying \eqref{assume} the next question is how can these assumptions be weakened to get new results. There are 3 main ways that these ideas could continue. The first idea would be to eliminate the restriction that $[U_\alpha,U_\beta]=1$ when $\alpha$ and $\beta$ are nested. This is true for Kac-Moody groups, but is not a consequence of the general RGD axioms, so it is worth considering if we can prove any results without it. Without this assumption, it is still possible to prove groups are finitely generated, but the methods in Chapter \ref{ch:general} would be impossible, as we have no hope of extending $\phi_v$ without this assumption.
+
+The next possibility would be to allow $m(s,t)=2$ in the Weyl group $W.$ This path also leads to difficulties as the triangle condition is an important tool which is lost when $m(s,t)=2.$ Also, preliminary explorations seem to indicate that extending $\phi_v$ is also impossible in the Coxeter complexes which arise in these cases, so once again, a new approach would be needed.
+
+The last area is to allow for $W$ to have higher rank. This seems to have the most promise, and it is even possible that some results about finite generation will follow from the rank 3 case, as there will be subgroups, similar to $U_v,$ for lower dimensional simplices of the building. There are however, two obstacles to face when extending in this manner. This first issue is understanding the geometry of the Coxeter complex $\Sigma.$ For rank 3 Weyl groups, can draw nice 2 dimensional pictures to get an Idea of what is happening in $\Sigma.$ A large help was the code seen in the appendix which allowed me to nicely draw Coxeter complexes for rank 3 $W.$ There is some though of writing similar code to possibly 3D print models of the Coxeter complex for rank 4 Weyl groups, which could potentially be helpful.
+
+The other problem, but perhaps the most manageable, is that for higher rank, the Coxeter complex may not live so nicely as a model of hyperbolic space. It does seem that the group theoretic methods described in Chapter \ref{ch:general} will translate however, and it seems promising that something can be said for at least rank 4 cases as well.
+
 
 
 \end{document}

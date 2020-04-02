@@ -1,7 +1,7 @@
 \documentclass[class=book, crop=false,12 pt]{standalone}
 \usepackage[subpreambles=true]{standalone}
 \usepackage{import}
-\usepackage{/home/mark/Documents/gradschool/research/thesis/preamble}
+\RequirePackage{/home/mark/Documents/gradschool/research/thesis/preamble}
 
 \begin{document}
 
@@ -21,7 +21,7 @@ Throughout this chapter $(G,(U_\alpha)_{\alpha\in \Phi},T)$ will be an RGD syste
 \end{aligned}
 \end{equation}
 
-Before moving on we should address each one of these conditions to determine what role it will play. The first condition simply says that the twin building $\Delta$ is 2-dimensional. The second condidion excludes the possibility of Moufang quadrangles as rank 2 links, and it ensures that every link will be strictly Moufang. As we are interested in questions about finite generation, there is no hope in proving $G$ or $U_+$ is finitely generated if the root groups themselves are not finitely generated, so we must include this restriction to say anything at all. Finally, the condition that $[U_\alpha,U_\beta]=1$ if $\alpha,\beta$ are nested is a strengthening of the commutator relations in $G$ which will allow us to define certain homomorphisms in a nice way.
+Before moving on we should address each one of these conditions to determine what role it will play. The first condition simply says that the twin building $\Delta$ is 2-dimensional. The second condition excludes the possibility of Moufang quadrangles as rank 2 links, and it ensures that every link will be strictly Moufang. As we are interested in questions about finite generation, there is no hope in proving $G$ or $U_+$ is finitely generated if the root groups themselves are not finitely generated, so we must include this restriction to say anything at all. Finally, the condition that $[U_\alpha,U_\beta]=1$ if $\alpha,\beta$ are nested is a strengthening of the commutator relations in $G$ which will allow us to define certain homomorphisms in a nice way.
 
 It is important to note that we are not being too restrictive, and there are still lots of examples of RGD systems which satisfy these properties. For example, any Kac-Moody group of rank 3 over a finite field will satisfy the second two conditions, and the first two conditions are determined by the Weyl group $W.$
 
@@ -40,7 +40,7 @@ Let $v$ be a vertex of $\Sigma$ such that $\lk(v)$ is the Moufang polygon associ
 		1&\text{ otherwise}
 	\end{cases}
 \]
-Extends uniquely to a well defined group homormoprhism $\tilde{\phi}_v:U_+\to H.$
+Extends uniquely to a well defined group homomorphism $\tilde{\phi}_v:U_+\to H.$
 \end{lemma}
 \begin{proof}
 	Since $U'_v\neq U_v$ we know that the map $\phi_v$ exists by Corollary \ref{cor:phiv}. We have a presentation for $U_+$ and we have defined $\tilde{\phi}_v$ on the generators of $U_+,$ so in order to check that it is well defined we will need to verify that the relations of $U_+$ are satisfied in the image.
@@ -49,10 +49,10 @@ Extends uniquely to a well defined group homormoprhism $\tilde{\phi}_v:U_+\to H.
 
 	Let $R_\alpha$ be a relation for $U_\alpha$ where $R_\alpha$ is considered as a word with letters in $U_\alpha.$ If $v$ lies on $\partial \alpha$ then $\tilde{\phi_v}(R_\alpha)=\phi_v(R_\alpha)=1$ since $\phi_v$ is a well defined homomorphism. Otherwise, every element of $U_\alpha$ is sent to 1 and thus $\tilde{\phi_v}(R_\alpha)=1$ as well so that $R_\alpha$ is mapped to the identity as desired.
 
-	Now suppose that $\alpha$ and $\beta$ are any two positive roots. If $\alpha,\beta$ nested, then \eqref{assume} tells us that $[U_\alpha,U_\beta]=1.$ Since the codomain of $\tilde{\phi_v}$ is an abelian group, then any relation of the form $[x,y]=1$ will be satisfied by the image.
+	Now suppose that $\alpha$ and $\beta$ are any two positive roots. If $\alpha,\beta$ nested, then \eqref{assume} tells us that $[U_\alpha,U_\beta]=1.$ Since the co-domain of $\tilde{\phi_v}$ is an abelian group, then any relation of the form $[x,y]=1$ will be satisfied by the image.
 
 
-	Now suppose that $\partial \alpha$ and $\partial \beta$ meet at a point $y$ and consider any relation of the form $[u_\alpha,u_\beta]=w$ where $u_\alpha\in U_\alpha,$ $u_\beta\in U_\beta,$ and $w$ is a word in $U_{(\alpha,\beta)}\subset U_y.$ Again, note that the image of the left side of this equation will always be the identity as the codomain is still abelian. If $y=v$ then $U_y=U_v$ and thus $\tilde{\phi_v}(w)=\phi_v(w)=1$ because $\phi_v$ is well defined.
+	Now suppose that $\partial \alpha$ and $\partial \beta$ meet at a point $y$ and consider any relation of the form $[u_\alpha,u_\beta]=w$ where $u_\alpha\in U_\alpha,$ $u_\beta\in U_\beta,$ and $w$ is a word in $U_{(\alpha,\beta)}\subset U_y.$ Again, note that the image of the left side of this equation will always be the identity as the co-domain is still abelian. If $y=v$ then $U_y=U_v$ and thus $\tilde{\phi_v}(w)=\phi_v(w)=1$ because $\phi_v$ is well defined.
 
 	Now suppose that $y\neq v.$ Then we can label the positive roots passing through $y$ as $\gamma_1,\cdots,\gamma_r$ in such a way that $(\gamma_i,\gamma_j)=\{\gamma_{r}|i<r<j\}$ whenever $i<j.$ In this case we can can say without loss of generality that $\alpha=\gamma_l$ and $\beta=\gamma_m$ with $l<m.$  There can be at most one root whose wall passes through $y$ and $v,$ which we will call $\gamma_k$ if it exists. If $\gamma_k$ does not exist, or $k\le l$ or $k\ge m$ then the root $\gamma_k$ is not contained in $(\alpha,\beta)$ and thus $\tilde{\phi_v}(U_\delta)=1$ for all $\delta\in (\alpha,\beta).$ This means $\tilde{\phi_v}(w)=1$ and the relation is satisfied.
 
@@ -119,7 +119,7 @@ If $\gamma$ is a positive root at $x$ which is not simple at $x,$ and $\delta$ i
 
 	Now suppose that $\partial \gamma\cap \partial \delta=y\neq x.$ From the local geometry of $\Sigma$ around $x$ we can see the following facts. For any $\alpha_i$ with $2\le i\le n-1$ we know that $\partial\alpha_i\cap \alpha_1\cap \alpha_n=\{x\}$ and $\partial\alpha_i\subset \alpha_1\cup\alpha_n.$ Thus the point $y$ will lie in exactly one of $\alpha_1$ or $\alpha_n.$
 
-	First suppose that $y\in \alpha_n$ so that $y\not\in \alpha_1.$ If $\partial\alpha_1\cap \partial\delta=\emptyset$ then there are exactly 3 possibilities. Either $\alpha_1\subset \delta,$ $\delta\subset\alpha_1,$ or $-\delta\subset \alpha_1.$ But the last two possibilites would contradict our assumption that $y\not\in \alpha_1$ and thus we get $\alpha_1\subset \delta$ and thus $\D\subset \alpha_1\subset \gamma\cap\delta$ as desired.
+	First suppose that $y\in \alpha_n$ so that $y\not\in \alpha_1.$ If $\partial\alpha_1\cap \partial\delta=\emptyset$ then there are exactly 3 possibilities. Either $\alpha_1\subset \delta,$ $\delta\subset\alpha_1,$ or $-\delta\subset \alpha_1.$ But the last two possibilities would contradict our assumption that $y\not\in \alpha_1$ and thus we get $\alpha_1\subset \delta$ and thus $\D\subset \alpha_1\subset \gamma\cap\delta$ as desired.
 
 	Alternatively, assume that $\partial\alpha_1\cap \partial\delta=y'.$ Then the points $x,y,y'$ will form a triangle with sides on walls of $\Sigma.$ Then by the triangle condition, these three vertices must form a chamber, call it $E.$ The points $x,y$ lie on $\partial\gamma=\partial\alpha_i$ and the points $x,y'$ lie on $\partial\alpha_1.$ Since $y$ and $y'$ are adjacent this means that either $\gamma=\alpha_2$ or $\gamma=\alpha_n.$ The latter is a contradiction of our assumptions and thus $\gamma=\alpha_2.$ We know that $y$ and $y'$ are adjacent and $y\in \alpha_n.$ Since neither $y$ or $y'$ lies on $\partial\alpha_n$ this means that $y'\in \alpha_n$ as well.
 
@@ -209,10 +209,10 @@ Recall that $W$ is defined by the edge labels $a=m(s,t),b=m(s,u),c=m(t,u)$ we as
 
 Now we recall the two $M$ operations on words in a Coxeter group are as follows:
 \begin{enumerate}
-	\item Delete a subword $ss$ for some $s\in S$
-	\item Replace a subword of the form $stst\cdots st(s)$ by a subword of the form $tsts\cdots ts(t)$ where each of these strings has length $m(s,t).$
+	\item Delete a sub-word $ss$ for some $s\in S$
+	\item Replace a sub-word of the form $stst\cdots st(s)$ by a sub-word of the form $tsts\cdots ts(t)$ where each of these strings has length $m(s,t).$
 \end{enumerate}
-Also recall that any word in a Coxeter group can be reduced to its minium length by repeated application of these operations, and any two reduced words can be converted each other by application of operations of type 2. Therefore, in order to check that the lenght relations are satisfied, it will be enough to show that we can never perform an $M$ operation of type 1 as this is the only way to reduce length.
+Also recall that any word in a Coxeter group can be reduced to its minimum length by repeated application of these operations, and any two reduced words can be converted each other by application of operations of type 2. Therefore, in order to check that the length relations are satisfied, it will be enough to show that we can never perform an $M$ operation of type 1 as this is the only way to reduce length.
 
 It is immediate from the definition that $\ell((w_k)^{-1})=3k$ for all $k.$ We can also see that $\ell(t(w_k)^{-1})=3k+1$ and thus $(w_k)^{-1}\in \alpha_1$ for all $k.$ Similarly, $u(w_k)^{-1}=u(sutsut\cdots),$ and no reduction operations can be done as we assumed $m(s,u)\ge 4.$ Thus $\ell(u(w_k)^{-1})=3k+1$ which means $(w_k)^{-1}\in \alpha_n$ as well.
 
@@ -248,7 +248,7 @@ We now know that each of the $(w_k)^{-1}x$ is distinct and each of them lies in 
 \begin{proof}
 	Suppose $w_mx$ and $w_nx$ do lie on the same wall with $m>n.$ Then we also know that $w_nw^{-1}_mx=w_{n-m}x$ and $x$ will lie on the same wall. Since $m>n$ we can let $k=m-n$ and thus it will suffice to show that $(w_k)^{-1}x$ and $x$ do not lie on the same wall for any $k\ge 1.$
 	
-We know from Lemma \ref{lem:infmany} that $(w_k)^{-1}x\in \D.$ Thus if $(w_k^{-1})x$ and $x$ lie on the same wall, it must be a wall through $x$ and thus it must be $\partial\alpha_i$ for some $i.$ We know that $(w_k^{-1})x\in \alpha_1\cap \alpha_n$ since $\D\subset \alpha_1\cap \alpha_n$ by defintion. But we can also recall that $\partial\alpha_j\cap \alpha_1\cap \alpha_n=\{x\}$ for $2\le j\le n-1.$ Thus we have $i=1$ or $i=n$ so that $(w_k^{-1})x$ either lies on $\partial\alpha_1$ or $\partial\alpha_n.$  Therefore, we either have $u(w_k)^{-1}x=(w_k)^{-1}x$ or $t(w_k)^{-1}x=(w_k)^{-1}x$ which implies that either $w_kuw_k^{-1}$ or $w_ktw_k^{-1}$ is contained in $\mathrm{stab}_W(x)=\langle u,t \rangle.$ However, by a similar argument as before, we can simply write out these elements and show that they cannot be reduced. The only possible relations we have are
+We know from Lemma \ref{lem:infmany} that $(w_k)^{-1}x\in \D.$ Thus if $(w_k^{-1})x$ and $x$ lie on the same wall, it must be a wall through $x$ and thus it must be $\partial\alpha_i$ for some $i.$ We know that $(w_k^{-1})x\in \alpha_1\cap \alpha_n$ since $\D\subset \alpha_1\cap \alpha_n$ by definition. But we can also recall that $\partial\alpha_j\cap \alpha_1\cap \alpha_n=\{x\}$ for $2\le j\le n-1.$ Thus we have $i=1$ or $i=n$ so that $(w_k^{-1})x$ either lies on $\partial\alpha_1$ or $\partial\alpha_n.$  Therefore, we either have $u(w_k)^{-1}x=(w_k)^{-1}x$ or $t(w_k)^{-1}x=(w_k)^{-1}x$ which implies that either $w_kuw_k^{-1}$ or $w_ktw_k^{-1}$ is contained in $\mathrm{stab}_W(x)=\langle u,t \rangle.$ However, by a similar argument as before, we can simply write out these elements and show that they cannot be reduced. The only possible relations we have are
 \begin{align*}
 	w_ktw_k^{-1}&=(\cdots tustus)t(sutsut\cdots)\\
 		    &=(\cdots tustu)(sts)(utsut\cdots)\\
@@ -275,7 +275,7 @@ We now have all the ingredients and are ready to prove the main theorem.
 	Suppose that $U_+$ is finitely generated. Then there is some finite set of roots $\beta_1,\dots,\beta_m$ such that $U_+=\langle U_{\beta_i}|1\le i\le m\rangle.$ Now no two of the vertices $(tus)^{-k}x$ lie on the same wall and thus we can choose $k$ so that $v=(tus)^{-k}x$ does not lie on $\partial \beta_i$ for any $i.$ By Lemma \ref{lem:infmany} and Lemma \ref{lem:Dexists} we know that $\tilde{\phi}_v$ exists, and by definition it is a surjective map from $U_+\to H$ where $H$ is a cyclic group. However, we can also see by the definition  of $\tilde{\phi}_v$ that $\tilde{\phi_v}(U_{\beta_i})=1$ for all $i,$ since none of these walls meet $v.$ But this means $\tilde{\phi_v}$ sends all of the generators of $U_+$ to the identity and thus it must be the trivial map which is a contradiction. Thus $U_+$ is not finitely generated as desired.
 \end{proof}
 
-In the previous proof we assumed that $b=m(s,u)$ and $c=m(t,u)$ are larger than 4, but the labels are arbitrary and the previous theorem implies that $U_+$ is not finitely generated if there is an exceptional vertex, and any other vertex $v'$ has $|st(v')|\ge 8.$ The proof of Theorem \label{thm:notfg} also implies a stronger statement.
+In the previous proof we assumed that $b=m(s,u)$ and $c=m(t,u)$ are larger than 4, but the labels are arbitrary and the previous theorem implies that $U_+$ is not finitely generated if there is an exceptional vertex, and any other vertex $v'$ has $|st(v')|\ge 8.$ The proof of Theorem \ref{thm:notfg} also implies a stronger statement.
 
 \begin{cor}
 	\label{cor:abnotfg}
