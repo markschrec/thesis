@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  2 APR 2020 03:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  7 APR 2020 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,10 +765,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]
-Overfull \hbox (24.22476pt too wide) in paragraph at lines 87--88
-[]\OT1/cmr/m/n/12 Suppose that $(\OML/cmm/m/it/12 W; S\OT1/cmr/m/n/12 )$ is an ar-bi-trary Cox-eter sys-tem with roots $^^H\OML/cmm/m/it/12 :$ \OT1/cmr/m/n/12 Then we say that $(\OML/cmm/m/it/12 G; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ; T\OT1/cmr/m/n/12 )$
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -822,10 +818,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
-Overfull \hbox (54.01564pt too wide) in paragraph at lines 174--175
-[]\OT1/cmr/m/n/12 If $\OML/cmm/m/it/12 H \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 then get $\OML/cmm/m/it/12 U[] \OMS/cmsy/m/n/12 ^^Z [] \OML/cmm/m/it/12 ^^^[]$ \OT1/cmr/m/n/12 as well. This means that $\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 ) = [\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 (1)\OML/cmm/m/it/12 ; x[]\OT1/cmr/m/n/12 (1)]\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -839,16 +831,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]) (./chapters/generalcase/generalcase.tex
+[31]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
+[32]) (./chapters/generalcase/generalcase.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
 Chapter 5.
-[33
+[34
 
 ]
 Overfull \hbox (3.89331pt too wide) in paragraph at lines 33--34
@@ -861,22 +860,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[35]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35] (./chapters/generalcase/diagrams/defineD.tex)
+[36] (./chapters/generalcase/diagrams/defineD.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-<chapters/generalcase/diagrams/containD.pdf, id=148, 328.83049pt x 305.34174pt>
+[37]
+<chapters/generalcase/diagrams/containD.pdf, id=151, 328.83049pt x 305.34174pt>
 File: chapters/generalcase/diagrams/containD.pdf Graphic file (type pdf)
 <use chapters/generalcase/diagrams/containD.pdf>
 Package pdftex.def Info: chapters/generalcase/diagrams/containD.pdf  used on input line 129.
@@ -891,21 +890,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
+[38]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./chapters/generalcase/diagrams/containD.pdf>] (./chapters/generalcase/diagrams/mappicture.tex (./chapters/generalcase/diagrams/./wtranslationpost.tex) (./chapters/generalcase/diagrams/./wtranslationpre.tex))
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[39]
+[39 <./chapters/generalcase/diagrams/containD.pdf>] (./chapters/generalcase/diagrams/mappicture.tex (./chapters/generalcase/diagrams/./wtranslationpost.tex) (./chapters/generalcase/diagrams/./wtranslationpre.tex))
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -926,16 +918,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]) (./chapters/exceptionalcase/exceptionalcase.tex
+[42]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]
+[43]) (./chapters/exceptionalcase/exceptionalcase.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
 Chapter 6.
-[44
+[45
 
 ]
 
@@ -944,8 +943,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
-<chapters/exceptionalcase/diagrams/defineDprime.pdf, id=207, 469.755pt x 469.755pt>
+[46]
+<chapters/exceptionalcase/diagrams/defineDprime.pdf, id=210, 469.755pt x 469.755pt>
 File: chapters/exceptionalcase/diagrams/defineDprime.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/defineDprime.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/defineDprime.pdf  used on input line 92.
@@ -957,21 +956,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[47]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./chapters/exceptionalcase/diagrams/defineDprime.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48]
+[48 <./chapters/exceptionalcase/diagrams/defineDprime.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1000,7 +992,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-<chapters/exceptionalcase/diagrams/deg33n.pdf, id=240, 469.755pt x 469.755pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+<chapters/exceptionalcase/diagrams/deg33n.pdf, id=243, 469.755pt x 469.755pt>
 File: chapters/exceptionalcase/diagrams/deg33n.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/deg33n.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/deg33n.pdf  used on input line 275.
@@ -1012,8 +1011,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./chapters/exceptionalcase/diagrams/deg33n.pdf>]
-<chapters/exceptionalcase/diagrams/vdef.pdf, id=257, 328.83049pt x 234.8775pt>
+[54 <./chapters/exceptionalcase/diagrams/deg33n.pdf>]
+<chapters/exceptionalcase/diagrams/vdef.pdf, id=260, 328.83049pt x 234.8775pt>
 File: chapters/exceptionalcase/diagrams/vdef.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/vdef.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/vdef.pdf  used on input line 298.
@@ -1025,8 +1024,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54 <./chapters/exceptionalcase/diagrams/vdef.pdf>]
-<chapters/exceptionalcase/diagrams/roots334.pdf, id=274, 469.755pt x 469.755pt>
+[55 <./chapters/exceptionalcase/diagrams/vdef.pdf>]
+<chapters/exceptionalcase/diagrams/roots334.pdf, id=277, 469.755pt x 469.755pt>
 File: chapters/exceptionalcase/diagrams/roots334.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/roots334.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/roots334.pdf  used on input line 319.
@@ -1035,7 +1034,7 @@ Package pdftex.def Info: chapters/exceptionalcase/diagrams/roots334.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/exceptionalcase/diagrams/roots336.pdf, id=275, 469.755pt x 469.755pt>
+<chapters/exceptionalcase/diagrams/roots336.pdf, id=278, 469.755pt x 469.755pt>
 File: chapters/exceptionalcase/diagrams/roots336.pdf Graphic file (type pdf)
 <use chapters/exceptionalcase/diagrams/roots336.pdf>
 Package pdftex.def Info: chapters/exceptionalcase/diagrams/roots336.pdf  used on input line 339.
@@ -1046,19 +1045,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
+[56]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56]) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1079,7 +1069,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./chapters/exceptionalcase/diagrams/roots336.pdf>]
+[59 <./chapters/exceptionalcase/diagrams/roots336.pdf>]) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60
+
+]
 Appendix A.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
@@ -1089,7 +1090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 119.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/simplex.py [60
+) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/simplex.py [61
 
 ]
 
@@ -1098,60 +1099,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/hyptransformations.py
+[62]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/hyptransformations.py
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/coxetergroup.py
+[63]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/coxetergroup.py
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/hyperbolictilinggenerator.py
+[64]) (/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/hyperbolictilinggenerator.py
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
+[65]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]) (./thesis.bbl
+[66]) (./thesis.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]
+[67]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-) [67
+) [68
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 18118 strings out of 494880
- 359400 string characters out of 6179600
- 907060 words of memory out of 5000000
- 20967 multiletter control sequences out of 15000+600000
+ 18119 strings out of 494880
+ 359406 string characters out of 6179600
+ 907091 words of memory out of 5000000
+ 20968 multiletter control sequences out of 15000+600000
  17790 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  73i,12n,90p,1231b,1761s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on thesis.pdf (72 pages, 1326422 bytes).
+Output written on thesis.pdf (73 pages, 1327504 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
+ 391 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

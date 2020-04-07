@@ -21,11 +21,11 @@
 \contentsline {subsection}{\numberline {3.2.4}Kac-Moody Groups}{23}
 \contentsline {chapter}{\numberline {4}Known Results on Finite Generation}{25}
 \contentsline {section}{\numberline {4.1}Local Roots and Root Groups}{25}
-\contentsline {chapter}{\numberline {5}Conditions for Infinite Generation}{33}
-\contentsline {section}{\numberline {5.1}Extension of $\phi _v$}{34}
-\contentsline {section}{\numberline {5.2}When $\ensuremath {\mathcal {D}}$ is infinite}{40}
-\contentsline {chapter}{\numberline {6}Exceptional Cases}{44}
-\contentsline {section}{\numberline {6.1}Case: $\ensuremath {\mathrm {lk}}(x)$ associated to the group $G_2(2)$}{45}
-\contentsline {section}{\numberline {6.2}Case: $\ensuremath {\mathrm {lk}}(x)$ associated to the group $C_2(2)$ or $G_2(3)$}{51}
-\contentsline {section}{\numberline {6.3}Future Questions}{56}
-\contentsline {chapter}{\numberline {A}Code for Diagram Generation}{60}
+\contentsline {chapter}{\numberline {5}Conditions for Infinite Generation}{34}
+\contentsline {section}{\numberline {5.1}Extension of $\phi _v$}{35}
+\contentsline {section}{\numberline {5.2}When $\ensuremath {\mathcal {D}}$ is infinite}{41}
+\contentsline {chapter}{\numberline {6}Exceptional Cases}{45}
+\contentsline {section}{\numberline {6.1}Case: $\ensuremath {\mathrm {lk}}(x)$ associated to the group $G_2(2)$}{46}
+\contentsline {section}{\numberline {6.2}Case: $\ensuremath {\mathrm {lk}}(x)$ associated to the group $C_2(2)$ or $G_2(3)$}{52}
+\contentsline {section}{\numberline {6.3}Future Questions}{60}
+\contentsline {chapter}{\numberline {A}Code for Diagram Generation}{61}
