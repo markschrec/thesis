@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1586283188 "thesis.aux" "thesis.bbl" "thesis" 1586283189
+["bibtex thesis"] 1586283188 "thesis.aux" "thesis.bbl" "thesis" 1586548211
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
   "bibliography.bib" 1586283085 2182 9e3f06288365722a2c8e010c742ff339 ""
-  "thesis.aux" 1586283189 8194 ce36254f64496678026cb94f5cacf9cd ""
+  "thesis.aux" 1586548211 8194 ce36254f64496678026cb94f5cacf9cd ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1586283188 "thesis.tex" "thesis.pdf" "thesis" 1586283189
+["pdflatex"] 1586548208 "thesis.tex" "thesis.pdf" "thesis" 1586548211
   "/etc/texmf/web2c/texmf.cnf" 1540353119 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/coxetergroup.py" 1576796536 2526 4e7f29452d4b99163e963622357d1f1b ""
   "/home/mark/Documents/gradschool/research/hyperbolictilinggenerator/hyperbolictilinggenerator.py" 1585715204 4123 5ddd31eb75408df72baa5fd592cb6c8c ""
@@ -217,14 +217,14 @@
   "chapters/knownresults/knownresults.tex" 1585857420 27126 04cea2979d5ac623c6e077bc586f00f4 ""
   "chapters/rgd/rgd.tex" 1586283183 22405 f3d28cfe387129f2f418cc561fa626eb ""
   "preamble.sty" 1585807440 1297 e3145ea50efa65a2fe8bcb6fc6f659c4 ""
-  "thesis.aux" 1586283189 8194 ce36254f64496678026cb94f5cacf9cd ""
+  "thesis.aux" 1586548211 8194 ce36254f64496678026cb94f5cacf9cd ""
   "thesis.bbl" 1586283188 1554 a6f9740659495cfac557e76cdc58a35e "bibtex thesis"
-  "thesis.sta" 1586283189 2124 e0ef0c6105689af2beeac343728e808f ""
-  "thesis.tex" 1585889819 8544 062454e7b632ad15ccdd2e6266289116 ""
-  "thesis.toc" 1586283189 2241 9d7fce0e6de06116359d048fa804743c ""
+  "thesis.sta" 1586548211 2124 e0ef0c6105689af2beeac343728e808f ""
+  "thesis.tex" 1586548206 8561 8e2e188d393f4d0ca409173c69fe1455 ""
+  "thesis.toc" 1586548211 2241 9d7fce0e6de06116359d048fa804743c ""
   (generated)
-  "thesis.aux"
   "thesis.sta"
-  "thesis.toc"
-  "thesis.log"
+  "thesis.aux"
   "thesis.pdf"
+  "thesis.log"
+  "thesis.toc"
