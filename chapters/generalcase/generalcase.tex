@@ -15,15 +15,17 @@ Throughout this chapter $(G,(U_\alpha)_{\alpha\in \Phi},T)$ will be an RGD syste
 	\tag{A} 
 \begin{aligned}
 	&S=\{s,t,u\},\: a=m(s,t),b=m(s,u),c=m(t,u)\\
-	&3\le a,b,c\\
+	&3\le a,b,c<\infty\\
 	&U_\alpha \text{ is finitely generated for all }\alpha\in \Phi\\
 	&[U_\alpha,U_\beta]=1\text{ when }\alpha,\beta \text{ are nested}
 \end{aligned}
 \end{equation}
 
-Before moving on we should address each one of these conditions to determine what role it will play. The first condition simply says that the twin building $\Delta$ is 2-dimensional. The second condition excludes the possibility of Moufang quadrangles as rank 2 links, and it ensures that every link will be strictly Moufang. As we are interested in questions about finite generation, there is no hope in proving $G$ or $U_+$ is finitely generated if the root groups themselves are not finitely generated, so we must include this restriction to say anything at all. Finally, the condition that $[U_\alpha,U_\beta]=1$ if $\alpha,\beta$ are nested is a strengthening of the commutator relations in $G$ which will allow us to define certain homomorphisms in a nice way.
+Before moving on we should address each one of these conditions to determine what role it will play. The first condition simply says that the twin building $\Delta$ is 2-dimensional. The second condition excludes the possibility of Moufang bigons as rank 2 links, and it ensures that every link will be strictly Moufang. If a root group $U_\alpha$ is not finitely generated, then it is easy to show that $U_+$ is also not fintiely generated, so we insist  $U_\alpha$ is finitely generated to be able to say anything interesting at all. In most of the known examples, the groups $U_\alpha$ are additive groups of vector spaces over some field. In these cases, reqiring the $U_\alpha$ to be finitely generated is equivalent to reqiring them to be finite. Finally, the condition that $[U_\alpha,U_\beta]=1$ if $\alpha,\beta$ are nested is a strengthening of the commutator relations in $G$ which will allow us to define certain homomorphisms in a nice way.
 
-It is important to note that we are not being too restrictive, and there are still lots of examples of RGD systems which satisfy these properties. For example, any Kac-Moody group of rank 3 over a finite field will satisfy the second two conditions, and the first two conditions are determined by the Weyl group $W.$
+It is important to note that we are not being too restrictive, and there are still lots of examples of RGD systems which satisfy these properties. For example, we can construct Kac-Moody groups whose Weyl group will satisfy conditions (1) and (2). Furthermore, if the Kac-Moody group is over a finite field, then condition (3) will be satisfied, and conditions (1) and (2) will imply condition (4).
+
+Throughout the remainder, we will see multiple diagrams showing models of the Coxeter complex of $W.$ To the reader familiar with hyperbolic geometry, these diagrams will appear to live in the Poincar\'{e} disk model of $\mathbb{H}^2.$ This is no accident, as conditions (1) and (2), along with the assumption that at least one of $a,b,c$ is at least 4, will imply that we can realized the Coxeter complex as a triangular tiling of the hyperbolic plane. The existence of a vertex with exceptional link will force $\max(a,b,c)\ge 4$ and thus the Coxeter complexes in question will satisfiy the necessary properties. Python code computing the hyperbolic geometry and generating the tikz diagrams can be found in Appendix \ref{ch:app}.
 
 We know by Corollary \ref{cor:cofg} that $U_+$ is finitely generated if $\Delta$ has no exceptional rank 2 links. In the next two chapters we will determine when the same result will hold if $\Delta$ does have exceptional links. The general idea of the proof is as follows. For any vertex $v$ with an exceptional link we have a surjective homomorphism $\phi_v:U_v\to H$ where $H$ is cyclic and thus abelian. We will attempt to extend this homomorphism to all of $U_+$ in such a way that $U_\beta$ is sent to the identity if $U_\beta\not\subset U_v.$ Since $\phi_v$ is surjective, the extension will also be surjective, and therefore any generating set of $U_+$ must contain at least 1 element of $U_v.$ If we can do this for ``enough'' $U_v$ then we can potentially use this to prove that $U_+$ cannot be finitely generated. The difficulty lies in checking that the desired extension will be well defined, but we have a presentation of $U_+$ so it becomes a matter of checking that certain commutator relations are satisfied. Moreover, since the co-domain is abelian, commutators will automatically vanish which simplifies the conditions which need to be checked.
 
@@ -40,7 +42,7 @@ Let $v$ be a vertex of $\Sigma$ such that $\lk(v)$ is the Moufang polygon associ
 		1&\text{ otherwise}
 	\end{cases}
 \]
-Extends uniquely to a well defined group homomorphism $\tilde{\phi}_v:U_+\to H.$
+extends uniquely to a well defined group homomorphism $\tilde{\phi}_v:U_+\to H.$
 \end{lemma}
 \begin{proof}
 	Since $U'_v\neq U_v$ we know that the map $\phi_v$ exists by Corollary \ref{cor:phiv}. We have a presentation for $U_+$ and we have defined $\tilde{\phi}_v$ on the generators of $U_+,$ so in order to check that it is well defined we will need to verify that the relations of $U_+$ are satisfied in the image.
@@ -119,7 +121,7 @@ If $\gamma$ is a positive root at $x$ which is not simple at $x,$ and $\delta$ i
 
 	Now suppose that $\partial \gamma\cap \partial \delta=y\neq x.$ From the local geometry of $\Sigma$ around $x$ we can see the following facts. For any $\alpha_i$ with $2\le i\le n-1$ we know that $\partial\alpha_i\cap \alpha_1\cap \alpha_n=\{x\}$ and $\partial\alpha_i\subset \alpha_1\cup\alpha_n.$ Thus the point $y$ will lie in exactly one of $\alpha_1$ or $\alpha_n.$
 
-	First suppose that $y\in \alpha_n$ so that $y\not\in \alpha_1.$ If $\partial\alpha_1\cap \partial\delta=\emptyset$ then there are exactly 3 possibilities. Either $\alpha_1\subset \delta,$ $\delta\subset\alpha_1,$ or $-\delta\subset \alpha_1.$ But the last two possibilities would contradict our assumption that $y\not\in \alpha_1$ and thus we get $\alpha_1\subset \delta$ and thus $\D\subset \alpha_1\subset \gamma\cap\delta$ as desired.
+	First suppose that $y\in \alpha_n$ so that $y\not\in \alpha_1.$ If $\partial\alpha_1\cap \partial\delta=\emptyset$ then there are exactly 4 possibilities. Either $\alpha_1\subset \delta,$ $\delta\subset\alpha_1,-\delta\subset \alpha_1,$ or $\alpha_1\subset -\delta.$ The last case is impossible as $C$ is a chamber of $\alpha_1$ but it is not a chamber of $-\delta.$ The cases $\delta\subset \alpha_1$ and $-\delta \subset \alpha_1$ are also impossible as they would contradict our assumption that $y\not\in \alpha_1$ and thus we get $\alpha_1\subset \delta$ and thus $\D\subset \alpha_1\subset \gamma\cap\delta$ as desired.
 
 	Alternatively, assume that $\partial\alpha_1\cap \partial\delta=y'.$ Then the points $x,y,y'$ will form a triangle with sides on walls of $\Sigma.$ Then by the triangle condition, these three vertices must form a chamber, call it $E.$ The points $x,y$ lie on $\partial\gamma=\partial\alpha_i$ and the points $x,y'$ lie on $\partial\alpha_1.$ Since $y$ and $y'$ are adjacent this means that either $\gamma=\alpha_2$ or $\gamma=\alpha_n.$ The latter is a contradiction of our assumptions and thus $\gamma=\alpha_2.$ We know that $y$ and $y'$ are adjacent and $y\in \alpha_n.$ Since neither $y$ or $y'$ lies on $\partial\alpha_n$ this means that $y'\in \alpha_n$ as well.
 
@@ -132,7 +134,7 @@ If $\gamma$ is a positive root at $x$ which is not simple at $x,$ and $\delta$ i
 	\label{fig:localpic}
 \end{figure}
 
-	We know that $E$ is a chamber in $\st(x)$ with a side on $\partial \alpha_1$ and $\partial\alpha_2.$ Let $D=tC$ and $D'$ be the chamber opposite $D$ in $\st(x).$ Then either $E=D$ or $E=D'.$ By definition, $\alpha_1$ is the only wall separating $C$ and $tC$ which means $D=tC\in \alpha_n.$ If $E=D'$ then $D'\in \alpha_n$ since $x,y,y'$ all lie in $\alpha_n.$ But this is a contradiction as $\alpha_n$ cannot contain two opposite chambers in $\st(x).$ Thus $E=D=tC$ and $\delta=\beta$ by definition. Thus $\D\subset \beta=\delta$ and $\D\subset \gamma\cap \delta$ as desired. A depiction of this situation can be found in Figure \ref{fig:localpic}.
+	We know that $E$ is a chamber in $\st(x)$ with a side on $\partial \alpha_1$ and $\partial\alpha_2.$ Let $D=tC$ and $D'$ be the chamber opposite $D$ in $\st(x).$ Then either $E=D$ or $E=D'.$ By definition, $\partial\alpha_1$ is the only wall separating $C$ and $tC$ which means $D=tC\in \alpha_n.$ If $E=D'$ then $D'\in \alpha_n$ since $x,y,y'$ all lie in $\alpha_n.$ But this is a contradiction as $\alpha_n$ cannot contain two opposite chambers in $\st(x).$ Thus $E=D=tC$ and $\delta=\beta$ by definition. Thus $\D\subset \beta=\delta$ and $\D\subset \gamma\cap \delta$ as desired. A depiction of this situation can be found in Figure \ref{fig:localpic}.
 
 	If we assume instead that $y\in\alpha_1$ so that $y\not\in \alpha_n$ then identical arguments show that $\delta=\beta'$ and we can again conclude that $\D\subset \gamma\cap \delta$ as desired.
 
@@ -168,7 +170,7 @@ We are now ready to construct a large family of vertices $\{v\}$ for which $\til
 \begin{proof}
 	Let $D=\mathrm{Proj}_{v}(C)$ and define $w$ so that $D=w^{-1}C.$ By definition, $v$ is a vertex of $D$ of type $s$ and $w^{-1}x$ is also a vertex of $D$ of type $s$ and thus $w^{-1}x=v.$ The claim is that this $w$ will satisfy the desired properties. First we mention that $wx$ is also a vertex of $\Sigma$ of type $s$ and thus $[U_{wx}:U'_{wx}]\ge 2$ and $\phi_{wx}$ exists by Corollary \ref{cor:respectphiv}. 
 	
-	Again, the definition of projections means that $D$ is the closest vertex to $C$ which has a vertex of $w^{-1}x.$ Since $\mathcal{D}$ is convex, and $w^{-1}x$ and $C$ both lie in $\mathcal{D},$ we also know that $D=\mathrm{Proj}_{w^{-1}x}(C)$ lies in $\mathcal{D}$ as well. By a similar argument we know that $\mathrm{Proj}_{x}(D)$ must lie in $\mathcal{D}\subset \alpha_1\cap \alpha_n$ and thus $\mathrm{Proj}_{x}(D)=C.$ Now define $E=wC$ and note that the action of $W$ respects projections and thus we have
+	Again, the definition of projections means that $D$ is the closest chamber to $C$ which has a vertex of $w^{-1}x.$ Since $\mathcal{D}$ is convex, and $w^{-1}x$ and $C$ both lie in $\mathcal{D},$ we also know that $D=\mathrm{Proj}_{w^{-1}x}(C)$ lies in $\mathcal{D}$ as well. By a similar argument we know that $\mathrm{Proj}_{x}(D)$ must lie in $\mathcal{D}\subset \alpha_1\cap \alpha_n$ and thus $\mathrm{Proj}_{x}(D)=C.$ Now define $E=wC$ and note that the action of $W$ respects projections and thus we have
 	\[
 		E=wC=\mathrm{Proj}_{wx}{wD}=\mathrm{Proj}_{wx}{C} \qquad C=wD=\mathrm{Proj}_{w(w^{-1}x)}{wC}=\mathrm{Proj}_{x}{E}
 	\]
@@ -195,7 +197,7 @@ Now we have shown that vertices of $\D$ in some way correspond to $\tilde{\phi_v
 
 
 \section{When $\D$ is infinite}
-Our first task will be two show that the region $\D$ contains infinitely many unique vertices. Intuitively, this will happen if the walls for $\beta$ and $\beta'$ do not meet, and we will first give a sufficient (and necessary) condition for this.
+Our first task will be two show that the region $\D$ contains infinitely many vertices. Intuitively, this will happen if the walls for $\beta$ and $\beta'$ do not meet, and we will first give a sufficient (and necessary) condition for this.
 
 Recall that $W$ is defined by the edge labels $a=m(s,t),b=m(s,u),c=m(t,u)$ we assumed that the vertices of type $s$ were exceptional which implies $c\ge 4.$ We will show that if we also assume that $b\ge 4$ then the region $\mathcal{D}$ will contain infinitely many chambers.
 
@@ -239,7 +241,7 @@ Now it only remains to show that $v_m\neq v_n$ for $m\neq n.$ Suppose $(w_m)^{-1
 
 \end{proof}
 
-We now know that each of the $(w_k)^{-1}x$ is distinct and each of them lies in $\D.$ By Lemma \ref{lem:infmany} we know that $\tilde{\phi}_{w_kx}$ exists for each $k\ge 0.$ Our idea is still to use each of these vertices to give a root which must be contained in any generating set. However, there is still one possible issue. If almost all of these vertices lie on the same wall, then an inclusion of that root in a generating set could satisfy infinitely many of the $k$ at once, which would not allow us to prove infinite generation. So it remains to show that not only are the vertices $w_nx$ distinct, but also no two lie on the same wall.
+We now know that each of the $(w_k)^{-1}x$ is distinct and each of them lies in $\D.$ By Lemma \ref{lem:Dexists} we know that $\tilde{\phi}_{w_kx}$ exists for each $k\ge 0.$ Our idea is still to use each of these vertices to give a root which must be contained in any generating set. However, there is still one possible issue. If almost all of these vertices lie on the same wall, then an inclusion of that root in a generating set could satisfy infinitely many of the $k$ at once, which would not allow us to prove infinite generation. So it remains to show that not only are the vertices $w_nx$ distinct, but also no two lie on the same wall.
 
 \begin{lemma}
 	\label{lem:samewall}
@@ -269,22 +271,34 @@ We now have all the ingredients and are ready to prove the main theorem.
 
 \begin{theorem}
 	\label{thm:notfg}
-	Let $(G,(U_\alpha)_{\alpha\in \Phi},T)$ be an RGD system of type $(W,S).$ Assume $W$ is defined by a Coxeter diagram with edge labels $a,b,c$ with $3\le a$ and $4\le b,c.$ Let $U_+=\langle U_\alpha|\alpha\in \Phi_+\rangle$ and suppose that $[U_x:U'_x]\ge 2$ where $x$ is the vertex of $C$ of type $s.$ Then $U_+$ is not finitely generated.
+	Let $(G,(U_\alpha)_{\alpha\in \Phi},T)$ be an RGD system of type $(W,S)$ with associated building $\Delta$ which satisfies
+	\begin{equation}
+	\tag{A} 
+\begin{aligned}
+	&S=\{s,t,u\},\: a=m(s,t),b=m(s,u),c=m(t,u)\\
+	&3\le a,b,c<\infty\\
+	&U_\alpha \text{ is finitely generated for all }\alpha\in \Phi\\
+	&[U_\alpha,U_\beta]=1\text{ when }\alpha,\beta \text{ are nested}
+\end{aligned}
+\end{equation}
+Also assume that $x$ is the vertex of $C$ of type $s$ and that $\lk(x)$ is the building assoicated to one of the exceptional groups listed in Lemma \ref{lem:index}, implying $c\ge 4.$ If $b\ge 4,$ then the group $U_+=\langle U_\alpha|\alpha\in \Phi_+\rangle$ is not finitely generated.
+
+
 \end{theorem}
 \begin{proof}
 	Suppose that $U_+$ is finitely generated. Then there is some finite set of roots $\beta_1,\dots,\beta_m$ such that $U_+=\langle U_{\beta_i}|1\le i\le m\rangle.$ Now no two of the vertices $(tus)^{-k}x$ lie on the same wall and thus we can choose $k$ so that $v=(tus)^{-k}x$ does not lie on $\partial \beta_i$ for any $i.$ By Lemma \ref{lem:infmany} and Lemma \ref{lem:Dexists} we know that $\tilde{\phi}_v$ exists, and by definition it is a surjective map from $U_+\to H$ where $H$ is a cyclic group. However, we can also see by the definition  of $\tilde{\phi}_v$ that $\tilde{\phi_v}(U_{\beta_i})=1$ for all $i,$ since none of these walls meet $v.$ But this means $\tilde{\phi_v}$ sends all of the generators of $U_+$ to the identity and thus it must be the trivial map which is a contradiction. Thus $U_+$ is not finitely generated as desired.
 \end{proof}
 
-In the previous proof we assumed that $b=m(s,u)$ and $c=m(t,u)$ are larger than 4, but the labels are arbitrary and the previous theorem implies that $U_+$ is not finitely generated if there is an exceptional vertex, and any other vertex $v'$ has $|st(v')|\ge 8.$ The proof of Theorem \ref{thm:notfg} also implies a stronger statement.
+In the previous proof we assumed that $b=m(s,u)$ and $c=m(t,u)$ are at least 4, but the labels are arbitrary and the previous theorem implies that $U_+$ is not finitely generated if there is an exceptional vertex, and any other vertex $v'$ has $|st(v')|\ge 8.$ The proof of Theorem \ref{thm:notfg} also implies a stronger statement.
 
 \begin{cor}
 	\label{cor:abnotfg}
 	If $(G,(U_\alpha)_{\alpha\in \Phi},T)$ is an RGD system as defined in Theorem \ref{thm:notfg}, then $(U_+)_\text{ab}$ is not finitely generated.
 \end{cor}
 \begin{proof}
-	Suppose that $(U_+)_\text{ab}$ is finitely generated. Then there is a finite set of roots $\beta_1,\dots,\beta_m$ such that the images $[U_{\beta_1}],\dots,[U_{\beta_m}]$ of the root groups generate $(U_+)_\text{ab}.$ As in the previous proof, we choose a vertex $v$ which does not lie on any $\partial \beta_i$ such that $\tilde{\phi}_v$ exists. We know $\tilde{\phi}_v(U_{\beta_i})=\{1\}$ for all $i.$ But the co-domain of $\tilde{\phi}_v$ is abelian, and thus the map will factor through $(U_+)_\text{ab}$ and we get a map $f:(U_+)_\text{ab}\to H$ where $f([u)]=\tilde{\phi}_v(u).$ But then $f$ is also surjective, but $f([U_{\beta_i}])=\{1\}$ for all $i$ which is again a contradiction.
+	Suppose that $(U_+)_\text{ab}$ is finitely generated. Then there is a finite set of roots $\beta_1,\dots,\beta_m$ such that the images $[U_{\beta_1}],\dots,[U_{\beta_m}]$ of the root groups generate $(U_+)_\text{ab}.$ As in the previous proof, we choose a vertex $v$ which does not lie on any $\partial \beta_i$ such that $\tilde{\phi}_v$ exists. We know $\tilde{\phi}_v(U_{\beta_i})=\{1\}$ for all $i.$ But the co-domain of $\tilde{\phi}_v$ is abelian, and thus the map will factor through $(U_+)_\text{ab}$ and we get a map $f:(U_+)_\text{ab}\to H$ where $f([u])=\tilde{\phi}_v(u).$ But then $f$ is also surjective, but $f([U_{\beta_i}])=\{1\}$ for all $i$ which is again a contradiction.
 \end{proof}
 
-In this chapter we were able to prove that $U_+$ will not be finitely generated when we have exceptional links and at least two labels which are more than 4. In the next chapter we will examine what happens in the remaining cases, meaning when two of our edge labels are 3.
+In this chapter we were able to prove that $U_+$ will not be finitely generated when we have exceptional links and at least two labels which are at least 4. In the next chapter we will examine what happens in the remaining cases, meaning when two of our edge labels are 3.
 
 \end{document}

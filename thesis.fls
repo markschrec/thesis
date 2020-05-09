@@ -346,9 +346,9 @@ INPUT chapters/generalcase/diagrams/./wtranslationpre.tex
 INPUT chapters/exceptionalcase/exceptionalcase.tex
 INPUT chapters/exceptionalcase/exceptionalcase.tex
 INPUT chapters/exceptionalcase/exceptionalcase.tex
-INPUT chapters/exceptionalcase/diagrams/defineDprime.pdf
-INPUT ./chapters/exceptionalcase/diagrams/defineDprime.pdf
-INPUT ./chapters/exceptionalcase/diagrams/defineDprime.pdf
+INPUT chapters/exceptionalcase/diagrams/defineDprimenew.pdf
+INPUT ./chapters/exceptionalcase/diagrams/defineDprimenew.pdf
+INPUT ./chapters/exceptionalcase/diagrams/defineDprimenew.pdf
 INPUT chapters/exceptionalcase/diagrams/deg33n.pdf
 INPUT ./chapters/exceptionalcase/diagrams/deg33n.pdf
 INPUT ./chapters/exceptionalcase/diagrams/deg33n.pdf

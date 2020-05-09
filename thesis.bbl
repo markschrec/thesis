@@ -2,7 +2,7 @@
 
 \bibitem{cop}
 Peter Abramenko and Hendrik~Van Maldeghem.
-\newblock Connectedness of opposite-flag geometries in moufang polygons.
+\newblock Connectedness of opposite-flag geometries in {Moufang} polygons.
 \newblock {\em Eur. J. Comb.}, 20:461--468, 1999.
 
 \bibitem{jtco}
@@ -12,29 +12,31 @@ Jacques Tits.
   S{\'e}rie A}, 38:367--387, 1986.
 
 \bibitem{globalco}
-Bernhard Muhlherr and Mark Ronan.
+Bernhard M\"uhlherr and Mark Ronan.
 \newblock Local to global structure in twin buildings.
 \newblock In {\em Invent. Math., 122: 71}. Citeseer, 1995.
 
 \bibitem{buildings}
 Peter Abramenko and Kenneth~S Brown.
-\newblock {\em Buildings: theory and applications}, volume 248.
+\newblock {\em Buildings: theory and applications}, volume 248 of {\em Graduate
+  Texts in Mathematics}.
 \newblock Springer Science \& Business Media, 2008.
 
 \bibitem{poly}
 Richard Weiss.
-\newblock The nonexistence of certain moufang polygons.
+\newblock The nonexistence of certain {Moufang} polygons.
 \newblock {\em Inventiones mathematicae}, 51:261--266, 1979.
 
 \bibitem{sarith}
 Peter Abramenko.
-\newblock {\em Twin buildings and applications to S-arithmetic groups}.
-\newblock Springer, 2006.
+\newblock {\em Twin buildings and applications to S-arithmetic groups}, volume
+  1641 of {\em Lecture Notes in Mathematics}.
+\newblock Springer, 1996.
 
 \bibitem{kacmoody}
 Jacques Tits.
-\newblock Uniqueness and presentation of kac-moody groups over fields.
-\newblock {\em Journal of algebra}, 105(2):542--573, 1987.
+\newblock Uniqueness and presentation of {Kac}-{Moody} groups over fields.
+\newblock {\em Journal of Algebra}, 105(2):542--573, 1987.
 
 \bibitem{carter}
 R.W. Carter.
@@ -43,7 +45,7 @@ R.W. Carter.
 \newblock Wiley Classics Library. Wiley, 1993.
 
 \bibitem{free}
-Pierre-Emmanuel Caprace and Bertrand Rémy.
+Pierre-Emmanuel Caprace and Bertrand Remy.
 \newblock Groups with a root group datum.
 \newblock {\em Innov. Incidence Geom.}, 9(1):5--77, 2009.
 

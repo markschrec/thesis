@@ -1,0 +1,13 @@
+\documentclass[border=1mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+	\clip (3,-3) rectangle (9,3);
+	\foreach \x in {-8,...,8}
+	{
+		\draw (\x,-8.1)--++(60:16);
+		\draw (\x,8.1)--++(-60:16);
+		\draw (60:\x)--++(18,0);
+	}
+\end{tikzpicture}
+\end{document}
